@@ -1,0 +1,16 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  "include": [
+    "vite.config.*",
+    "vitest.config.*",
+    "cypress.config.*",
+    "src/plugins/vite/plugins/index.ts",
+    "src/plugins/vite/plugins/unplugin-auto-import.ts",
+    "src/plugins/vite/plugins/unplugin-vue-components.ts"
+  ],
+  "compilerOptions": {
+    "jsx": "preserve",
+    "composite": true,
+    "types": ["node"]
+  }
+}
