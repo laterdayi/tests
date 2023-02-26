@@ -1,0 +1,1880 @@
+# global common
+nowTime: Now Time
+workbench: Workbench
+module: Module
+fullScreen: Full Screen
+add: Add {val}
+query: Query
+edit: Edit {val}
+modify: Modify
+delete: Delete
+import: Import
+export: Export
+download: Download
+noData: Not Data
+selected: Selected
+clear: Clear
+serverIp: Server IP
+day: Day
+hour: Hour
+minute: Minute
+index: Index
+yes: Yes
+no: No
+userName: UserName
+password: Password
+createTime: Create Time
+mail: Mail
+requestError: Request Error
+title: Title
+warning: Warning
+user: User
+description: Description
+translate: Translate
+save: Save
+resetPassword: Reset Password
+viewDetail: View Detail
+search: Search
+baseInfo: Base Info
+selectParent: Select Parent
+parent: Parent
+notFoundPage: Page not found
+back: Back
+keyWord: KeyWord
+creator: Creator
+source: Source
+action: Action
+failed: Failed
+success: Success
+processing: Processing
+system: System
+reset: Reset
+type: Type
+time: Time
+closed: Closed
+all: All
+please: Please
+timeRange: Time Range
+refresh: Refresh
+copy: Copy
+seleteAll: Selete All
+confirm: Confirm
+cancel: Cancel
+noPermission: No Permission
+notEmpty: '{val} Not Empty'
+
+# axios response state
+response:
+  state:
+    400: Request Error
+    401: Login invalid, please login again
+    403: Access Denied
+    404: Request error, resource not found
+    405: The request method is not allowed
+    408: Request timeout
+    429: Requests are frequent. Please try again later
+    500: Server Error
+    501: Network not implemented
+    502: Network Error
+    503: Service Unavailable
+    504: Network Timeout
+    505: The http version does not support this request
+
+# 模块
+config: Config
+assembly: Assembly
+ams: AMS
+testing: Testing
+systemMonitor: System Monitor
+
+# layout-setting
+themeConfig: Theme Config
+languageSwitch: Language Switch
+themeMode: Theme Mode
+minimum: Minimum
+smallScale: Small Scale
+standard: Standard
+extremely: Extremely
+modeSwitch: Mode Switch
+languageSetting: Language Setting
+systemTheme: System Theme
+buttonSetting: Button Setting
+tableSetting: Table Setting
+stripPage: Strip / Page
+toggleLanguageTips: Make sure to switch to {val} ？
+
+# 规则验证
+rules:
+  ipRule: The format of the server IP address is Error
+  officePhoneRule: Wrong office phone number
+  mobilePhoneRule: Wrong mobile number
+  emailRule: Wrong email
+  onlyNumbersRule: Can only contain numbers
+  onlyLetterRule: Can only contain letters
+  onlyLowercaseRule: Contain only lowercase letters
+  onlyUppercaseRule: Contain only uppercase letters
+  onlyIntRule: Can only contain integers
+  onlyPositiveIntRule: Can only contain positive integers
+  onlyPositiveIntZeroRule: Can only contain 0 and positive integers
+  onlyNegativeIntRule: Can contain only negative integers
+  onlyChineseRule: It can only contain Chinese characters
+  onlyNotChineseRule: Can only contain non-Chinese characters
+  formatError: Format Error
+  lengthRule: The length ranges from {min} to {max} characters
+  onlyMinLengthRule: The minimum length {min} characters
+  onlyMaxLengthRule: The maximum length {max} characters
+  sizeRule: The values range from {min} to {max}
+  onlyMinSizeRule: The minimum value shall not be less than {min}
+  onlyMaxSizeRule: The maximum value shall not be exceeded {max}
+
+# 弹框
+dialog:
+  activate: Are you sure {val} is active ?
+  freeze: Are you sure about the freeze {val} ?
+
+# base-tree
+baseTree:
+  filter: Enter the keyword for filtering
+
+#表格
+baseTable:
+  item: Item
+  total: Total
+  strip: Strip
+
+# 表单
+baseForm:
+  expand: Expand
+  putAway: Put Away
+  pleaseSelect: Please Select {val}
+  pleaseInput: Please Input {val}
+
+# 文件上传
+file:
+  astrictImgHint: Supports only JPG, PNG, JPEG, SVG, and ICO formats
+  astrictXlsxHint: Supports only xlsx formats
+  astrictApkHint: Supports only Apk formats
+  whichRow: "The{'{'}{val}{'}'}row"
+  templateError: Template error
+uploadSuccess: Upload Success
+
+# 理论UPH维护
+theoryUph: Theory Uph
+theoryUphMaintain: Theory Uph Maintain
+recipe: Recipe
+modifyProject: Modify Project
+modifyContent: Modify Content
+modifyRecord: Modify Record
+deleteEquipmentTips: Double-click to delete device and right-click click modify device
+addEquipment: Add Equipment
+marginLeft: Margin Left
+marginTop: Margin Top
+width: Width
+height: Height
+modifyEquipment: Modify Equipment
+
+# 工作记录
+workRecord: Work Record
+sorter: Sorter
+timeSlot: Time Slot
+batchNumber: Batch Number
+productionBatchNumber: Production Batch Number
+programName: Program Name
+customerBatchNumber: Customer Batch Number
+testMachine: Test Machine
+testHead: Test Head
+dataStatistics: Data Statistics
+
+# 测试数据收集
+testingHome: Testing Home
+testingDataCollection: Testing Data Collection
+
+# UPH报表
+uphReport: Uph Report
+workingProcedure: Working Procedure
+totalUph: Total UPH
+targetUph: Target UPH
+
+# 报警历史记录
+alarmCode: Alarm Code
+alarmState: Alarm State
+alarmHistoryRecord: Alarm History Record
+alarmStartTime: Alarm Start Time
+alarmEndTime: Alarm End Time
+duration: Duration
+durationSecond: Duration(s)
+machineSelfAlarm: Machine Self Alarm
+lotNumebr: Lot Numebr
+batchDetail: Batch Detail
+executeActionDetail: Execute Action Detail
+startQueryRange: Start Query Range
+endQueryRange: End Query Range
+
+# 设备状态查询
+equipmentType: Equipment Type
+productName: Product name
+machine: Machine
+rate: Rate
+lotType: Lot Type
+yield: Yield
+jobNumber: Job Number
+
+# 材料上下机记录
+currentLength: Current Length
+
+# 材料信息管理
+materialNumber: Material Number
+materialCode: Material Code
+purchaseOrderNumber: Purchase Order Number
+initCount: Init Count
+currentCount: Current Count
+productionDate: Production Date
+expireDate: Expire Date
+expireUseDay: Expire Use Day
+startTimer: Start Timer
+startTimerTime: Start Timer Time
+supplierBatchNumber: Supplier Batch number
+isStartTimer: Whether Start Timer
+estimateExpireTime: Estimate Expire Time
+boardingTime: Boarding Time
+
+# 材料管理
+materialManage: Material Manage
+materialCategory: Material Category
+materialInfo: Material Info
+materialInfoManage: Material Info Manage
+materialBoarding: Material Boarding
+materialDisembark: Material Disembark
+materialMachineRecord: Material Machine Record
+
+# 改机单
+machineChangeOrder: Machine Change Order
+changeMachineTime: Change Machine Time
+changeMachineInfo: Change Machine Info
+machineChangeOrderNumber: Machine Change Order Number
+verifier: Verifier
+verifyTime: Verify Time
+currentResponsiblePerson: Current Responsible Person
+responsibleDepartment: Responsible Department
+currentResponsibleDepartment: Current Responsible Department
+receiverOfEquipment: Receiver of equipment
+receiptTime: Receipt Time
+from: From
+convertTo: Convert To
+lotId: Lot ID
+applyInfo: Apply Info
+review: Review
+takeOver: TakeOver
+changeMachineConfirm: Change Machine Confirm
+changedHand: Changed Hand
+qcConfirm: QC Confirm
+equipmentReceive: Equipment Receive
+equipmentShutdownType: M/C Down Type Equipment Shutdown Type
+validateFail: Validate Fail
+failReason: Fail Reason
+checkItemName: Check Item Name
+checkItemResult: Check Item Result
+finalResult: Final Result
+validateFormIsPassTips: Fail exists. Please enter the correct data
+
+# 设备实时监控
+equipmentRealtimeMonitor: Equipment Realtime Monitor
+
+# 理论UPH查询
+theoryUphQuery: Theory UPH Query
+examine: Examine
+oaExamine: OA  Examine
+correctionReason: Correction Reason
+promote: promote
+correctionUPH: Correction UPH
+
+# 设备概览
+equipmentOverview: Equipment Overview
+stateSwitcher: State Switcher
+stateSwitchTime: State Switch Time
+stateRemark: State Remark
+switchState: Switch State
+repair: Repair
+changeMachine: Change Machine
+currentStateRemark: Current State Remark
+LevelOneState: Level One State
+LevelTwoState: Level Two State
+LevelTwoStateDescription: Level Two State Description
+
+# 报修管理
+repairManage: Repair Manage
+repairInfo: Repair Info
+repairsInfo: Repairs Info
+workOrderNumber: Work Order Number
+productType: ProductType
+responsible: Responsible
+alarmInfo: Alarm Info
+lastDisposeTime: Last Dispose Time
+totalDisposeTime: Total Dispose Time
+equipmentAlarmInfo: Equipment Alarm Info
+primaryCause: Primary Cause
+paramsModify: Params Modify
+repairsMeasure: Repairs Measure
+spareReplace: Spare Replace
+operateRecord: Operate Record
+qcConfirmProject: QC Confirm Project
+checkList: Check List
+repairsConfirmProject: Repairs Confirm Project
+
+# 报警解锁
+productionManage: Production Manage
+alarmUnlock: Alarm Unlock
+unlock: Unlock
+unlockDate: Unlock Date
+unlockPeople: Unlock people
+unlocking: Unlocking
+unlockSucceeded: Unlock Succeeded
+unlockFaild: Unlock Faild
+
+# 设备布局管理
+equipmentLayoutManage: Equipment Layout Manage
+equipmentLayout: Equipment Layout
+layoutName: Layout Name
+areaName: Area Name
+layoutWidth: Layout Width
+layoutHeight: Layout Height
+layoutType: Layout Type
+backgroundImage: Background Image
+copyLayout: Copy Layout
+sourceLayout: Source Layout
+selectMachine: Select Machine
+
+# 设备布局详情
+equipmentLayoutDetail: Equipment Layout Detail
+
+# 产量上报设置
+outputReportSetting: Output Report Setting
+FixedFrequency: Fixed Frequency
+FixedTime: Fixed Time
+outputReport: Output Report
+shift: Shift
+frequency: Frequency
+frequencyMillisecond: Frequency (s)
+modifier: Modifier
+modifyTime: ModifyTime
+
+# mtba
+mtba: MTBA
+calculateMTBA: Calculate MTBA
+isEqpAlarm: Is Eqp Alarm
+isSwitchAlarm: Is Switch Alarm
+isSwitchAlarmState: Is Switch Alarm State
+productionLineLevel: Production Line Level
+
+# 登录
+login: Login
+welcome: Welcome
+logout: Logout
+siteTitle: SEMI-TECH E-FAB
+semiName: SEMI-TECH Smart Manufacturing Systems
+loginPage:
+  form:
+    title: Welcome Login
+    login: Login
+
+# 状态标准定义
+stateStandard: State Standard
+stateStandardDefinition: State Standard Definition
+stateStandardDeleteTips: When deleting, the child data will be deleted Are you sure to delete the selected data ?
+stateName: State Name
+stateCode: State Code
+parentState: Parent State
+backgroundColor: Background Color
+mesState: Mes State
+eapState: EAP State
+timeGrainClassify: Time Grain Classify
+stateLevel: State Level
+visibleRole: Visible Role
+switchRole: Switch Role
+associateSetting: Associate Setting
+currentLevelOneState: Current Level 1 state
+currentLeveTwoState: Current Level 2 state
+prevState: Previous state
+nextState: Next state
+
+# 菜单管理
+menuList: Menu List
+menuCategory: Menu Category
+otherPermission: Other Permission
+routeName: Route Name
+routePath: Route Path
+componentPath: Component Path
+parentMenu: Parent Menu
+isCache: Is Cache
+externalLink: External Link
+permissionButton: Permission Button
+isVisible: Is Visible
+web: Web
+app: APP
+icon: Icon
+visible: Visible
+menuIsVisible: Menu Visible
+inVisible: Invisible
+addChild: Add Child
+addSibling: Add Sibling
+deleteMenu: Delete Menu
+confirmDelete: Confirm Delete
+menu: Menu
+pleaseSelectIcon: Please Select Icon
+order: Order
+permissionValue: Permission Value
+linkName: Link Name
+linkPath: Link Path
+layout: Layout
+layout1: Layout 1
+layout2: Layout 2
+layoutTips: '
+  Layout 1: Contains the menu, head, and breadcrumbs<br /> Layout 2: Blank layout
+  '
+
+# 设备信息管理
+equipmentInfoManage: Equipment Info Manage
+equipmentInfo: Equipment Info
+factory: Factory
+equipmentLevel: Equipment Level
+generateQRcode: Generate QR Code
+print: Print
+
+#
+equipment: Equipment
+eqpId: EqpId
+nodeLevel: Node Level
+selectUser: Select User
+prodTreeNode: Layout Structure
+permissionAssign: Permission Assign
+eqpName: Eqp Name
+eqpType: Eqp Type
+levelName: Level Name
+
+# 报表管理首页
+requestCount: Request Count
+errorCount: Error Count
+service: Service
+serviceCall: Service Call
+slowService: Slow Service
+errorService: Error Service
+
+# tags-view
+tags:
+  refresh: Refresh
+  closeCurrentTag: Close Current Tag
+  closeOtherTags: Close the other
+  closeLeftTags: Close Left Tags
+  closeRightTags: Close Right Tags
+
+# 任务设定
+taskAbstract: Task Abstract
+nextExecuteTime: Next Execute Time
+actualStartTime: Actual Start Time
+actualEndTime: Actual End Time
+executeNow: Execute Now
+cron: Cron Expression
+cronError: Cron Expression Error
+taskStateList:
+  Ongoing: Ongoing
+  Fail: Execute Error
+  Success: Execute Success
+  Idle: Await Execute
+nextFiveRunTime: Last five run times
+
+# 任务执行记录
+taskExecuteRecord: Task ExecuteRecord
+taskDescription: Task Description
+taskType: Task Type
+taskState: Task State
+logInfo: Log Info
+executeTime: execute Time
+startTime: Start Time
+endTime: End Time
+executeCount: Execute Count
+task: Task
+viewLog: View Logs
+
+# 资源报警阈值设定
+resourceAlarm: Resource Alarm
+resourceAlarmSetting: Resource Alarm Setting
+cpuThreshold: Cpu Threshold
+memoryThreshold: Memory Threshold
+diskThreshold: Disk Threshold
+recipients: Recipients
+intervalTime: Interval Time
+isOpen: Is Open
+
+# 服务器资源监控
+serverResourceMonitor: Server Resource Monitor
+cpuUsage: CPU Usage
+cpuUsageMonitor: CPU Usage Monitor
+memoryUsage: Memory Usage
+memoryUsageMonitor: Memory Usage Monitor
+diskUsage: Disk Usage
+core: Core
+used: Used
+idle: Idle
+totalCount: Total Count
+logicCpu: Logic Cpu
+physicsCore: Physics Core
+physicsCpu: Physics Cpu
+chart:
+  single: Single
+
+# 服务器管理
+purpose: Purpose
+serverManage: Server Manage
+server: Server
+
+# 报表管理
+reportManage: Report Manage
+reportManageHome: Report Manage Home
+productionLineStructure: Production Line Structure
+# 系统日志
+systemLog: System Log
+logLevel: Log Level
+loginLog: Login Log
+loginIP: Login IP
+loginType: Login Type
+loginTime: Login Time
+logoutTime: Logout Time
+accountPassword: Account Password
+domainAccount: Domain Account
+businessType: Business Type
+senderAddress: Sender Address
+toAddress: To Address
+emailSubject: Email Subject
+emailContent: Email Content
+sendTime: Send Time
+emailSendRecord: Email Send Record
+AMSAlarm: AMS alarm
+serverResourceThresholdAlarm: Server Resource Threshold Alarm
+content: content
+contentDetails: Content Details
+
+# 按钮记录
+buttonClickRecord: Button Click Record
+buttonName: Button Name
+modular: Modular
+modularName: Modular Name
+pageName: Page Name
+serverIP: Server IP
+permissionID: Permission ID
+
+# 接口请求记录
+apiRequestRecord: API Request Record
+occurredTime: Occurred Time
+apiAddress: Api Address
+requestMethod: Request Method
+requestParams: Request Params
+runTime: Run Time
+loginAccount: Login Account
+browser: Browser
+requestTime: Request Time
+clientIp: Client Ip
+errMessage: Error Message
+
+# assembly报表
+assemblyReport: Assembly Report
+equipmentStateQuery: Equipment State Query
+equipmentState: Equipment State
+timeUtilizationReport: Time Utilization Report
+equipmentSliceView: Equipment Slice View
+produceReport: Produce Report
+percent: Percent
+
+# testing报表
+testingReport: Testing Report
+
+# AMS报表
+amsReport: AMS Report
+mttr: MTTR
+mtbf: MTBF
+site: Site
+customerCode: Customer Code
+productModel: Product Model
+statisDimen: Statis Dimen
+unitSelection: Unit Selection
+actualProductionTime: Actual Production Time
+plannedProductionTime: Planned Production Time
+repairTime: Repair Time
+repairCount: Repair Count
+
+# 业务操作记录
+systemOperateRecord: System Operate Record
+businessOperateRecord: Business Operate Record
+operate: Operate
+operateType: Operate Type
+operator: Operator
+operateTime: Operate Time
+primaryKey: Primary Key
+beforeChange: Before Change
+afterChange: After Change
+
+# 弹窗提示
+tips: Tips
+tipsTitle: Are you sure to log off and exit the system?
+determine: Determine
+
+account: Account
+department: Department
+role: Role
+keyword: Keyword
+leader: Leader
+email: Email
+officePhone: Office Phone
+mobilePhone: Mobile Phone
+lastLoginTime: Last Login Time
+totalLoginTimes: Total Login Time
+equipmentManage: Equipment Manage
+
+# 权限按钮
+permission-button:
+  deleteTooltip: Are you sure to delete the selected data ？
+  resetPassword: Are you sure to reset the password to 123456？
+
+# PAD机台绑定
+padMachineBinding: PAD Machine Binding
+equipmentNumber: Equipment Number
+padMarkId: PAD Mark ID
+padMachine: Pad Machine
+
+# 数据字典
+dictionaries: Dictionaries
+attributeName: Attribute Name
+attributeType: Attribute Type
+attributeValue: Attribute Value
+parentAttribute: Parent Attribute
+childAttribute: Child Attribute
+serialNumber: Serial Number
+addTo: Add To
+dictionaryDetails: Dictionary Details
+dictionaryType: Dictionary Type
+independentPullDown: Independent Pull Down
+
+# 供应商管理
+supplierManage: Supplier Manage
+supplierName: Supplier Name
+supplier: Supplier
+
+# 角色管理
+roleManage: Role Manage
+roleName: Role Name
+roleDescription: Role Description
+creationTime: Creation Time
+pleaseEnterTheRoleName: Please Enter The Role Name
+
+# 角色权限
+rolePermission: Role Permission
+roleList: Role List
+rolePermissionAssignment: Role Permission Assignment
+
+# 项目管理
+projectCode: Project Code
+projectName: Project Name
+adminAccount: Admin Account
+projectManager: Project Manager
+state: State
+project: Project
+product: Product
+license: License
+menuAssignment: Menu Assignment
+eqpCount: Equipment Total
+logo: Logo
+miniLogo: Mini Logo
+QRCode: QRCode
+usedNumber: Used Number
+
+# 表结构
+tableStructure: Table Structure
+columnName: Column Name
+columnNo: Column No
+columnType: Data Type
+dataLength: Data length
+canBeBlank: Can be blank
+columnDescription: Column Description
+primaryKeyOrNot: Primary key or not
+default: Default
+tableName: Table Name
+
+# Kafka设置
+kafkaSettings: Kafka Settings
+addTopic: Add Topic
+updatePartition: Update Partition
+connect: Connect
+topicName: Topic Name
+partitionCount: Partition Count
+
+# 邮箱管理
+hostName: Host Name
+portNumber: Port Number
+outbox: Outbox
+
+# 用户组管理
+userGroup: User Group
+userGroupManage: User Group Manage
+userGroupName: User Group Name
+
+# 页面
+basicConfig: Basic Config
+home: Home
+serverMonitor: Server Monitor
+systemMonitorHome: Server Monitor Home
+
+# Config
+equipmentCount: Equipment Count
+dataDictionary: Data Dictionary
+mailManage: Mail Manage
+adminManage: Admin Manage
+systemManage: System Manage
+onlineUser: Online User
+configHome: Config Home
+taskPlan: Task Plan
+taskSetting: Task Setting
+userManage: User Manage
+userManagement: User Management
+menuManage: Menu Mange
+projectManage: Project Manage
+
+# 电子表单
+electronForm: Electron Form
+formItemManage: Form Item Manage
+formNo: Form No
+formItem: Form Item
+formGroup: Form Group
+dataType: Data Type
+dataSource: Data Source
+judgeTypeView: Judge Type View
+valid: Valid
+isUpload: IsUpload
+belongTo: BelongTo
+apply: Apply
+formStationResult: Final Result
+isCheck: isCheck
+projectCategory: Project Category
+formType: FormType
+remark: Remark
+formVersionNumber: Form Version Number
+decimalPlaces: Decimal Places
+failValue: Fail Value
+company: Company
+isCheckList: Is CheckList
+condition: Condition
+conditionValue: Condition Value
+checkMode: Check Mode
+conditionNumber: Condition Number
+min: Min
+max: Max
+containMin: Contain Min
+containMax: Contain Max
+isShow: Is Show
+
+# 表单管理
+form: Form
+formManage: Form Manage
+formName: Form Name
+formPrefix: Form Prefix
+isValid: Is Valid
+
+#部门管理
+departmentManage: Department Manage
+departmentName: Department Name
+departmentCategory: Department Category
+
+# 安装包管理
+apkUpload: Apk Upload
+uploadApk: Upload APK
+scanCodeDownload: Sacn Code Download
+versionNumber: Version Number
+updateContent: Update Content
+fileName: File Name
+apk: APK
+uploadFile: Upload File
+uploadHint: Click or drag files to this area to upload
+
+# AMS
+amsHome: AMS Home
+alarmBoard: Alarm Board
+alarmDashboard: Alarm Dashboard
+alarmLevelManage: Alarm Level Manage
+executeAction: Execute Action
+executeResult: Execute Result
+alarmCodeMaintain: Alarm Code Maintain
+alarmStatistics: Alarm Statistics
+alarmStatisticsConfig: Alarm Statistics Config
+alarmInterval: Alarm Interval
+alarmTime: Alarm Time
+consuming: Processing Time (s)
+queryStatistics: Query Statistics
+alarmActionRecord: Alarm Action History
+alarmCountStatistics: Alarm Count Statistics
+alarmCount: Alarm Count
+alarmLevel: Alarm Level
+alarming: Alarming
+relatedInformation: Related Information
+systemName: System Name
+alarmRulesSetting: Alarm Rules Setting
+alarmDescription: Alarm Description
+alarmActionManage: Alarm Action Manage
+abscissa: Abscissa
+alarmIsSetting: Alarm Is Setting
+alarmDate: Alarm Date
+statisticsByWeek: Statistics By Week
+statisticsByMonth: Statistics By Month
+actionName: Action Name
+actionCode: Action Code
+addAlarmCode: Add Alarm Code
+execAction: Exec Action
+panalarm: Panalarm
+todayWarn: Today Warning
+equipmentAlarmBoard: Equipment Alarm Board
+currentDeviceAlarm: Current Device Alarm
+todayAlarmCount: Today Alarm Count
+onGoingCount: onGoingCount
+closeAlarmCount: Close Alarm Count
+alarmEqpPercent: Alarm Eqp Percent
+normalEquipment: Normal
+day30EquTop10: Top10 Alarm Equipment In 30 Days
+day30CodeTop10: 30 Days Alarm Code Top10
+day15Tendency: Alarm Trend In Recent 10 Days
+day10Tendency: Alarm Trend In Recent 10 Days
+day10ActionTendency: Action Trend In Recent 10 Days
+eqpAlarmDuration: Equipment alarm duration today
+systemExecutionAction: System Execution Action
+alarmSetting: Alarm Setting
+alarmBaseInfo: Alarm Base Info
+collectAlarms: Collect Alarms
+defaultLevel: Default Level
+repeatCount: Repeat Count
+effectiveTime: Effective Time {val}
+notGetAlarmEqpState: Not Get Alarm EqpState
+HoldLot: HoldLot
+HoldEquipment: HoldEquipment
+SendEmail: SendEmail
+SendSMS: SendSMS
+LockEquipment: LockEquipment
+SendWeChatMessage: SendWeChatMessage
+alarmActionSetting: Alarm Action Setting
+alarmDashboardSetting: Alarm Dashboard Setting
+mailTemplateSetting: Mail Template Setting
+dataArchivingSetting: Data Archiving Setting
+configured: Configured
+notConfigured: Not Configured
+levelOrEquipment: Level or equipment
+machineAlarm: Machine Alarm
+overwriteExistingSettings: Whether to overwrite the existing settings?
+byHierarchy: By Hierarchy
+byEqp: By Eqp
+alarmRulesTip: Those marked in red are levels or equipment without rules
+completeMachine: Complete Machine
+lockType: LockType
+lockTypeEmpty: Lock Type Cannot Be Empty
+completeLockTypeTip: The Number Value Cannot Be Empty Or The Port Value Cannot Be Empty
+
+# system-setting
+refreshTime: Refresh Time
+alarmNums: Alarm Nums
+recentlyHours: Recently Hours
+
+# assembly
+assemblyHome: Assembly Home
+statisticsByDay: Statistics By Day
+dateEquipmentShift: Date + Equipment + Shift
+line: Line
+area: Area
+timeUtilization: Time Utilization
+assemblyRunTime: Run Time (hour)
+totalTime: Total Time (hour)
+# 备件管理
+sparesManage: Spares Manage
+
+# 备件类别
+sparesCategory: Spares Category
+category: Category
+pattern: Pattern
+lifeControl: Life Control
+nonLifeControl: Non Life Control
+machineMode: Machine Mode
+inventoryModel: Inventory Model
+sparePartsMode: Spare Parts Mode
+
+# 备件型号管理
+sparesModelManage: Spares Model Manage
+model: Model
+
+# 备件基础信息
+sparesBasicInformation: Spares Basic Information
+collect: Collect
+boarding: Boarding
+disembark: Disembark
+maintain: Maintain
+restitution: Restitution
+receive: Receive
+externalRepairRestitution: External Repair Restitution
+region: Region
+standBy: Stand By
+number: Number
+currentState: Current State
+storageLocation: Storage Location
+lastMaintenanceTime: Last Maintenance Time
+lastMaintenancePersonnel: Last Maintenance Personnel
+nextMaintenanceTime: Next Maintenance Time
+reason: Reason
+maintenanceCycle: Maintenance Cycle (Days)
+warningTime: WarningTime
+recipient: Recipient
+upperLifeLimit: Upper Life Limit
+numberOfUses: Number Of Uses
+currentUsageNumber: Current Usage Number
+applicationCollectionTime: Application Collection Time
+people: People
+returnWarehouseLocation: Return Warehouse Location
+applicationReturnTime: Application Return Time
+returnee: Returnee
+maintenanceLocation: Maintenance Location
+externalRepairReturnDate: External Repair Return Date
+cleaningSpareParts: Cleaning Spare Parts
+scanningEquipment: Scanning Equipment
+internalMaintenance: Internal Maintenance
+externalMaintenance: External Maintenance
+picture: Picture
+spareState: Spare State
+
+# 备件报废管理
+sparesScrapManage: SparesScrap Manage
+applyForScrapping: Apply For Scrapping
+confirmScrap: Confirm Scrap
+rejected: Rejected
+scrapped: Scrapped
+confirmScrappingDate: Confirm Scrapping Time
+applicant: Applicant
+applicationTime: Application Time
+reasonForScrapping: Reason For Scrapping
+confirmedBy: Confirmed By
+confirmationTime: Confirmation Time
+scrapper: Scrapper
+applicationForScrappingTime: Application For Scrapping Time
+applyScrap: Apply
+reject: Reject
+pleaseImprove: Please Improve
+reasonForScrappingTips: Up To 100 Characters In Length
+
+# 备件统计查询
+sparesStatisticalQuery: Spares Statistical Query
+collectAndReturn: Collect And Return
+preserve: Preserve
+repairs: Repairs
+stock: Stock
+maintainerAccountNumber: Maintainer(Account Number)
+repairsReplaceParts: Repair Replace Parts
+repairsReason: Repair Reason
+maintenanceMode: Maintenance Mode
+resetOrNot: Reset Or Not
+numberOfGoodProducts: Number Of Good Products
+totalNumberOfGoodProducts: Total Number Of Good Products
+numberOfWarehouses: Number Of Warehouses
+onlineQuantity: Online Quantity
+totalScrapped: Total Scrapped
+maintenanceTime: Maintenance Time
+maintainerAccountBumber: Maintainer(Account Bumber)
+maintenanceReason: Maintenance Reason
+maintenanceMethod: Maintenance Method
+collectionTime: Collection Time
+collectingRemarks: Collecting Remarks
+returnTime: Return Time
+returnRemarks: Return Remarks
+issuedBy: Issued By
+issuingTime: Issuing Time
+releaseRemarks: Release Remarks
+recipientQuery: Recipient
+receivingTime: Receiving Time
+receiveRemarks: Receive Remarks
+useTimesAndTimeOfCollection: Use Times And Time Of Collection
+numberOfUsesWhenReturning: Number Of Uses When Returning
+preserveRemark: Preserve Remark
+repairsRemark: Repair Remark
+
+# 备件领用单
+sparesCollectingDoc: Spares Collecting Doc
+collectingApplication: Collecting Application
+grant: Grant
+dateOfApplication: Date Of Application
+collectingDocNo: Collecting Doc No
+pickingQuantity: Picking Quantity
+applicationRemarks: Application Remarks
+requested: Requested
+issued: Issued
+listOfSparePartsIssued: List Of Spare Parts Issued
+listOfAvailableSpareParts: Available Lists
+numberMessageWarning: The Data Corresponding To The Number Already Exists
+issueSpareParts: Issue Spare Parts
+
+# 个人中心
+personal: Personal
+personalInfo: Personal Info
+eMail: Email
+changePassword: Change Password
+oldPassword: Old Password
+newPassword: New Password
+confirmPassword: Confirm Password
+checkNewPswTip: Inconsistent with the new password
+modifyAvator: Modify Avator
+preview: Preview
+changePswSuccessTip: After the password update is successful, you will be redirected to the login page to login again
+
+# 系统设置
+systemSetting: System Setting
+basicSettings: Basic Settings
+enableSavingInterfaceRecord: Enable Saving Interface Record
+enableServerResourceUpload: Enable Server Resource Upload
+enableBusinessOperateRecord: Enable Business Operate Record
+enableButtonOperateRecord: Enable Button Operate Record
+startSavingMailOperationRecords: Start Saving Mail Operation Records
+generalSystemSettings: General System Settings
+displaySettings: Display Settings
+systemDisplaySettings: System Display Settings
+mailSettings: Mail Settings
+systemMailSettings: System Mail Settings
+senderEmail: Sender Email
+SMTPServerAddress: SMTP ServerAddress
+SMTPServerPort: SMTP ServerPort
+SMTPUserName: SMTP UserName
+SMTPPassword: SMTP Password
+recipientMailbox: Recipient Mailbox
+mailTest: Mail Test
+open: Open
+close: Close
+closemailTest: Close Mail Test
+openmailTest: Open Mail Test
+updateMailInformation: Update Mail Information
+updateBasicInformation: Update Settings
+sendTestMail: Send Test Mail
+incorrectAddress: Incorrect Address
+incorrect: Incorrect
+
+# -------------------------------------------------------------------------------------------- > 后台枚举字段
+
+# 改机单
+ConversionFormEnum_Verify: Review
+ConversionFormEnum_NotVerify: Await Review
+ConversionFormEnum_WaitTakeOver: Await TakeOver
+ConversionFormEnum_WaitHandle: Await Dispose
+ConversionFormEnum_WaitEqpReceive: Await Equipment Receive
+ConversionFormEnum_ConversionEnd: Change Machine Complete
+ConversionActionEnum_CreateFrom: Create
+ConversionActionEnum_Verify: Review
+ConversionActionEnum_HandOver: Change Hand
+ConversionActionEnum_TakeOver: TakeOver
+ConversionActionEnum_EgineerConfirm: Change Machine Confirm
+ConversionActionEnum_QCConfirm: QC Confirm
+ConversionActionEnum_EqpReceive: Equipment Receive
+
+# 报修管理
+RepairOperateTypeEnum_Submit: Submit Repair
+RepairOperateTypeEnum_TakeOver: TakeOver
+RepairOperateTypeEnum_Transfer: Change Hand
+RepairOperateTypeEnum_MajorDown: MajorDown
+RepairOperateTypeEnum_InExecution: QC Confirm
+RepairOperateTypeEnum_Close: Close
+RepairOperateTypeEnum_PM: PM
+RepairOperateTypeEnum_RepairComplete: Repair Complete
+RepairOperateTypeEnum_RepairMachine: Change Machine
+
+EnumFormType_PM: PM
+EnumFormType_EQPSpotCheck: EQP Spot Check
+EnumFormType_FQC: FQC
+EnumFormType_EQC: EQC
+EnumFormType_IPQC: IPQC
+EnumFormType_AlarmCheck: Alarm Check
+EnumFormType_IQC: IQC
+EnumFormType_OQC: OQC
+EnumFormType_MaintainCheck: Maintain Check
+EnumFormType_TensileForce: Tensile Force
+EnumFormType_FocusWorkOrder: Focus WorkOrder
+EnumFormType_SelfCheck: SelfCheck
+EnumFormType_PeriodicalMaintain: Spare Part PM
+EnumFormType_ClearanceRecord: Clearance Record
+EnumFormType_ChangeTestRecord: Change Test Record
+EnumFormType_EQPRepair: EQP Repair
+EnumFormType_QC_WB: QC_WB
+EnumFormType_QC_DB: QC_DB
+EnumFormType_RepairCompleted: EnumFormType Repair Completed
+EnumFormType_ParmConfirm: Parm Confirm
+EnumFormType_QCConfirm: QC Confirm
+EnumFormType_EqpReceive: Eqp Receive
+EnumFormType_RepairQCForm: Repair QC Form
+EnumCheckItemApply_General: General
+EnumCheckItemApply_Condition: Condition
+EnumCheckItemDataType_Numerical: Numerical
+EnumCheckItemDataType_Input: Input
+EnumCheckItemDataType_Boolean: Boolean
+EnumCheckItemDataType_RadioList: Radio List
+EnumCheckItemDataType_MultiSelectList: Multi SelectList
+EnumCheckItemDataType_RadioCheckbox: Radio Checkbox
+EnumCheckItemDataType_MultiCheckbox: Multi Checkbox
+EnumCheckItemDataType_SystemOut: System Out
+EnumCheckItemDataType_Attachment: Attachment
+EnumCheckItemDataType_Decimal: Decimal
+EnumCheckItemFinalResult_Result: Result
+QCConfirmItems: QC Confirm Items
+MaintenanceConfirmationItems: Maintenance Confirmation Items
+EnumCheckItemFinalResult_Ordinary: Ordinary
+EnumCheckItemBelongTo_EQP: EQP
+EnumCheckItemBelongTo_Group: Group
+EnumCheckItemBelongTo_Sample: Sample
+EnumCheckItemJudgeType_Value: Value
+EnumCheckItemJudgeType_Section: Section
+EnumCheckItemJudgeType_OutputValue: Output Value
+EnumCheckItemJudgeType_DecimalValue: Decimal Value
+EnumCheckItemCondition_ALL: ALL
+EnumCheckItemCondition_ProductModel: Product Model
+EnumCheckItemCondition_CustCode: Customer Code
+EnumCheckItemCondition_EQPModel: EQP Model
+EnumCheckItemCondition_SampleCode: Sample Code
+EnumCheckItemCondition_EQPType: EQPType
+EnumCheckItemCondition_PackageType: PackageType
+EnumCheckItemCondition_InterceptingPackageType: Intercepting PackageType
+EnumCheckItemCondition_ToolingModel: Spare Part Model
+EnumCheckItemCondition_ToolingType: Spare Part Type
+EnumCheckItemCondition_WeekDays: Week Days
+EnumCheckItemCondition_AlarmID: Alarm ID
+EnumCheckItemCondition_EqpId: EqpId
+EnumBringMode_BringBarcode: Bring Barcode
+EnumBringMode_BringQty: BringQty
+EntityStatus_Invalid: Invalid
+EntityStatus_Valid: Valid
+EnumBinType_SoftBin: Soft Bin
+EnumBinType_HardBin: Hard Bin
+EnumFrequenceUnit_DAY: Day
+EnumFrequenceUnit_WEEK: Week
+EnumFrequenceUnit_MONTH: Month
+EnumFrequenceUnit_DIE: Die
+InstallTypeEnum_TECNOrTESN: TECN/TESN
+InstallTypeEnum_ECNOrESN: ECN/ESN
+InstallTypeEnum_SWR: SWR
+EnumTimeUnit_Minute: Minute
+EnumTimeUnit_Hour: Hour
+EnumTimeUnit_Day: Day
+EnumTimeUnit_Week: Week
+EnumTimeUnit_Month: Month
+EnumTimeUnit_Year: Year
+AlarmActionEnum_HoldEquipment: Hold Equipment
+AlarmActionEnum_HoldLot: Hold Lot
+AlarmActionEnum_SendSMS: Send Message
+AlarmActionEnum_SendEmail: Send Email
+AlarmActionEnum_SendWebServiceSMS: Sending Message By Service
+AlarmActionEnum_LockEquipment: Lock Equipment
+AlarmActionEnum_SendRepair: Send Repair
+AlarmActionEnum_SendOAMessage: Send OA Message
+AlarmActionEnum_SendWeChatMessage: Send WeChat Message
+EnumCheck_Yes: Yes
+EnumCheck_No: No
+EnumToolingAction_Lend: Lend
+EnumToolingAction_Return: Return
+EnumToolingAction_Maintain: Maintain
+EnumToolingAction_Scrap: Scrap
+EnumToolingAction_LendOnEqp: Boarding
+EnumToolingAction_GetOffEqp: Disembark
+EnumToolingAction_Grant: Grant
+EnumToolingAction_Takeback: Takeback
+ToolingScrap_ApplyScrap: Apply for scrap
+ToolingScrap_Rejected: In reply
+ToolingScrap_Scraped: Has been scrapped
+ToolingApplyGrant_Apply: Apply for
+ToolingApplyGrant_Rejected: In reply
+ToolingApplyGrant_Granted: Has been issued
+EnumHdStatus_Good: Good
+EnumHdStatus_Fail: Fail
+EnumHdStatus_Engineer: Engineer
+EnumHdStatus_Scrap: Scrap
+EnumHdStatus_ShutDown: ShutDown
+EnumCategory_Common: Common
+EnumCategory_Maintenance: Maintenance
+EnumCategory_Spot: Spot
+EnumCategory_Alarm: Alarm
+EnumCategory_Tooling: Spare Part
+EnumCategory_ProduceCheck: ProduceCheck
+EnumCategory_Equipment: Equipment
+EnumCategory_Repair: Repair
+EnumCategory_Conversion: Conversion
+# 部门管理
+DepartmentEnum_Department: Department
+DepartmentEnum_Section: Section
+DepartmentEnum_UserGroup: User Group
+ToolingStateEnum_Free: To Be Used
+ToolingStateEnum_WaitGrant: To Be Issued
+ToolingStateEnum_WaitLendOn: To Be On Board
+ToolingStateEnum_OnEqp: On Machine
+ToolingStateEnum_WaitPM: To Be Maintained
+ToolingStateEnum_WaitReturn: To Be Returned
+ToolingStateEnum_WaitTakeBack: To Be Received
+ToolingStateEnum_RepairSendBack: Return For Maintenance
+# 报修管理
+RepairOperateStateEnum_ToTakeOver: Pending Orders
+RepairOperateStateEnum_AwaitingRepair: Awaiting Repair
+RepairOperateStateEnum_InTheStock: Marjor Down
+RepairOperateStateEnum_ToBeConfirmed: Subject to QC Confirmation
+RepairOperateStateEnum_EqpReceive: Equipment Acceptance
+RepairOperateStateEnum_PM: PM
+RepairOperateStateEnum_RepairMachine: Repair Machine
+RepairOperateStateEnum_CompleteMaintenance: Maintenance Completed
+
+# -------------------------------------------------------------------------------------------- > Http Response Code
+
+0: Operation Failed
+1: Operation Successful
+25: Spare Part Model Template
+1002: User Not found
+1003: The Password Is Incorrect
+1004: Record Not Found
+1005: License Is Invalid
+1006: License Is Out Of Date
+1007: Failed To Get Host Header
+1008: The Host Header Is Empty
+1009: Host Header Illegal
+1010: Failed To Get Authentication Information
+1011: The Login Has Expired Please Log In Again
+1012: The Login Has Expired Please Log In Again
+1013: Illegal Request
+1014: Parameter Error
+1015: Name Already Exists
+1016: Manage Account Already Exists
+1017: Code Already Exists
+1018: Basic Configuration Error
+1019: Export Failed
+1020: Upload Content Not Found
+1021: Upload File Must Be Excel
+1022: Import Fail
+1023: Can Not Found Download Template
+1024: Download File Not Exist
+1025: Version Number Already Exists
+1026: Please Set License For Project
+1027: Please configure the project license
+1028: The Number Of Equipment Has Exceeded The Maximum Quota Unable To Continue Adding
+1029: The Number Of TMS Equipment Has Exceeded The Maximum Quota Unable To Continue Adding
+1030: The Number Of AMS Equipment Has Exceeded The Maximum Quota Unable To Continue Adding
+1031: The Number Of PMS Equipment Has Exceeded The Maximum Quota Unable To Continue Adding
+1032: Project Not Found
+1033: The Users Project Is Disabled
+1034: Supplier Lot Number Cannot Be Empty
+1035: Supplier Lot Number Already Exists
+1036: The Old Password is incorrect
+1037: Data Already Exists
+1038: Supplier Name Already Exists
+1039: Supplier Name Is Not Allowed To Be Repeated
+1040: Supplier Batch Numbers Are Not Allowed To Be Repeated
+1041: ' {v0} Cannot Be Empty'
+1042: Spare Part Apply Scrap Not Exists
+1043: Spare Part Scrapped
+1044: Spare Part Apply Scrap Existed
+1045: Permission Denied
+1046: There Is No Data To Export
+1047: The Vendor Name Cannot Be Empty
+10000: Id Is Required
+10001: Name Is Required
+10002: Department Is Required
+10003: Invalid
+10004: Date Format Is Invalid
+10005: Number Format Is Invalid
+10006: Column Not Found
+10007: No Data
+10008: Eqp Type Is Empty
+10009: Handler Is Empty
+10010: Tester Is Empty
+10011: Handler Not Found
+10012: Tester Not Found
+10013: Spare Part Category Does Not Exist
+10014: Spare Part Model Does Not Exist
+10015: Please Fill In At Least The Production Line Level Or Equipment Number
+10016: Alarm Action Is required
+10017: Alarm Action Not Found
+10018: Alarm Code Is Required
+10019: Alarm Count Is Required
+10020: This Set Has Exist
+10021: Equipment Model Not Found
+10022: Equipment Name Mot Found
+10023: Tooling Barcode Is Required
+10024: Spare Parts Category Cannot Be Empty
+10025: Spare Part Model Cannot Be Empty
+10026: Internal Barcode Is Required
+10027: Material No. Is Required
+10028: Material Type Is Required
+10029: Material Type Does Not Exist
+10030: Material No. Is Required
+10031: Date Of Manufacture Is Required
+10032: Expiration Date Is Required
+10033: Ini Length Is Required
+10034: Supplier Lot Number Cannot Be Empty
+10035: Product Name Is Required
+10036: Need PAT Is Required
+10037: Supplier Does Not Exist
+10038: The Alarm Level Cannot Be Empty
+10039: Alarm Level Does Not Exist
+10040: The Account Cannot Be Empty
+10041: Department Is Not Exist
+10042: The User Name Cannot Be Empty
+10043: The Department Name Cannot Be Empty
+10044: Account Name Is Exist
+10045: Leader Is Not Exist
+10046: Role Name is Not Exist
+10047: Eqp Layout Is Required
+10048: Eqp Layout Is Not Exist
+10049: 'Please Fill In Whether To Collect Alarms 1: Collect 0: Do Not Collect'
+10050: Collect Alarms Or Not Is Invalid
+10051: Alarm Code Has Repetitive
+10052: Alarm Code Has Exist
+10053: Default Alarm Level Is Required
+10054: Default Alarm Level Has Not Exist
+10055: Equipment Alarm Rules Cannot Be Used At Non Equipment Level
+10056: Email Format Is Invalid
+10057: Equipment Type Has Exist
+10058: Equipment Type Has Repetitive
+10059: Equipment Model Is Required
+10060: All SBL Main Info Is Empty
+10061: SBL Child Forms Info Has Erroror Import Error
+10062: Spare Part Stock Is Required
+10063: Spare Part Flag Is Required
+10064: Spare Part HDState Is Required
+10065: Spare Part Owner Is Required
+10066: Spare Part Receive Date Is Required
+10067: Cannot Import Empty File
+10068: Alarm Triggering Count Is Between 1 And 999
+10069: Material Code Is Exist
+10070: Material Type Is Exist
+10071: User Account Has Repetitive
+10072: Description Is Required
+10073: Supplier Name Cannot Be Empty
+10074: Please Enter An Integer From 0 To 9999 For The Valid Time
+10075: The Test Head Corresponding To The Test Machine Is Not Found
+10076: Please Fill In The Alarm Description
+10077: Eqp Name Is Required
+10078: Please Fill In Whether To Collect Alarms
+10079: Duplicate Alarm Code Of This Device Number
+10080: Duplicate Alarm Code Of This Device Model
+10081: Device Type And Description Are Not Allowed To Be Repeated
+10082: Department Category Cannot Be Empty
+10083: Production Line Level Does Not Exist
+10084: The Alarm Code Of This Production Line Has Been Configured
+10085: The Alarm Code Of This Production Line Is Repeated
+10086: Contains Chinese Characters
+10087: Spare Part Number Already Exists
+10088: Recipe Cannot Be Empty
+10089: Theoretical UPH Cannot Be Empty
+10090: Theoretical UHP Is Exist
+10091: Excel Data Duplication
+10092: Item No. Cannot Be Blank
+10093: There Is No Such Alarm Code Under The Production Line Level
+10094: There Is No Such Alarm Code Under The Equipment Number
+10095: Device Type Does Not Exist
+10096: Duplicate Equipment Type + Alarm Code
+10098: Device Type Does Not Exist
+10099: Duplicate Equipment Type + Alarm Code
+10100: Please Fill In The Equipment Type
+10101: Please Fill In At Least The Equipment Type Or Equipment Number
+10102: There Is No Such Alarm Code Under This Equipment Type
+10103: BinNo Is Invalid
+10104: Part ID Is Required
+10105: Eqp + Recipe Donot Exist
+10106: Incorrect Mobile Phone Format
+10107: Incorrect Format Of Office Phone
+10108: Eqp State Is Falsecan Be Updated
+10109: Config Is Invalid
+10110: Area Is Required
+10111: Stage Is Required
+10112: Spare Part Name Is Required
+10113: Spare Part No. Is Required
+10114: Spare Part HdState Is Required
+10115: Spare Part No. Is Exist
+10116: Type Is Required
+10117: Type Is Not Exist
+10118: Area Is Not Exist
+10119: Stage Is Not Exist
+10120: Location Is Not Exist
+10121: State Is Not Exist
+10122: Spare Part Name Is Not Exist
+10125: Please Fill In The Equipment Number
+10127: User Group Name Error
+10128: The User Does Not have permission to set this production line level
+10129: Line Level Cannot Contain Spaces
+10130: Incorrect Format Of Acceptance Time
+10131: Incorrect Format Of Incoming Time
+10132: Incorrect Format Of Warranty Period
+10133: Data Of Device Belonging Group Does Not Exist
+10134: Data Of Asset Department Does Not Exist
+10135: Data Of System Name Does Not Exist
+10136: The Data Of The First Responsible Person Does Not Exist
+10137: The Data Of The Second Responsible Person Does Not Exist
+10138: Site Data Does Not Exist
+10139: The Data Ff The Equipment Belonging Area Does Not Exist
+10140: Machine State Data Does Not Exist
+10141: Equipment Number Cannot have Blank Space
+10142: Description Cannot Have Spaces
+10143: Test Header Cannot Have Spaces
+10144: The Device Belonging Group Cannot Have Spaces
+10145: Serial Number Cannot Have Spaces
+10146: Asset No. Cannot Have Blank Space
+10147: Asset Department Cannot Have Blank Space
+10148: The Factory Area Cannot Have Spaces
+10149: Affiliated Asset No. cannot have blank space
+10150: Acceptance Time Cannot Have Blank Space
+10151: There must Be No Blank Space In The Incoming Time
+10152: Acceptance Personnel Cannot Have Blank Space
+10153: Warranty Period Cannot Have Blank Space
+10154: Feature Cannot Have Spaces
+10155: System Name Cannot Have Spaces
+10156: The First Responsible Person Cannot Have Blank Space
+10157: The Second Responsible Person Cannot Have Blank Space
+10158: Select A User Group To The Interval Cannot Have Spaces
+10159: Site Cannot have spaces
+10160: The Place Of Use Cannot Have Spaces
+10161: The Maximum Test Station Cannot Have Spaces
+10162: Machine Process Control Cannot Have Blank Space
+10163: Configuration Information Cannot Have Spaces
+10164: No Space Is Allowed In The Equipment Belonging Area
+10165: Machine State Cannot Have Blank Space
+10166: The Equipment Number Can Only Consist Of Letters Numbers | And -
+10167: Machine Process Control Data Does Not Exist
+10168: Data Of Maximum Test Station Does Not Exist
+10169: The Current User Does Not Have Permission For This Device
+10170: Theoretical UPH Must Be A Positive Integer
+10171: Safety Stock Cannot Be Empty
+10172: Safety Stock Must Be A Positive Integer
+10177: The Device Type Ss Not Associated With Select User In The User Group
+10178: The Device Number Is Not Associated With Select User In The User Group
+10179: The Login Person Does Not Have Permission For This Device Number
+10181: The Supplier Name Cannot Contain Spaces
+10182: Supplier Names Are Too Long
+10183: Description Is Too Long
+10184: The Device Number Is Too Long
+10185: The Factory Is Too Long
+10186: The Department Name Cannot Contain Spaces
+10187: The Department Name Is Too Long
+10188: The Account Cannot Contain Spaces
+10189: The Account For Too Long
+10190: The Username Name Is Too Long
+10191: The Email Is Too Long
+10192: The Office Phone Is Too Long
+10193: The Mobile Phone Name Is Too Long
+10194: The User Name Cannot Contain Spaces
+10195: The Name Of Production Line Level Is Too Long
+10196: The Name Of Production Line Level Cannot Be Empty
+10197: Spare Part Model Is Too Long
+10198: The Category Of Spare Parts Is Too Long
+10199: Alarm Code Is Too Long
+10200: Alarm Code Cannot Contain Spaces
+10201: Invalid MTBA Calculation
+10202: Whether The Machine's Own Alarm Is Invalid
+10203: Whether The Switch Alarm Is Invalid
+10204: The Selected User Does Not Exist
+10205: Fill In Either Equipment Type Or Equipment Number
+10206: Recipe Cannot Contain Spaces
+10207: The Theoretical UPH Is Too Long
+10208: Remark Is Too Long
+10209: Recipe Ss Too Long
+10210: The Spare Part Model Cannot Contain Spaces
+10211: The Spare Parts Category Cannot Contain Spaces
+10212: Supplier lot number is too long
+10213: The material class already exists
+10214: Vendor lot numbers cannot contain Spaces
+10215: Port Cannot Be Empty
+10216: Chamber Cannot Be Empty
+10217: Invalid Port
+10218: Invalid Chamber
+10219: Invalid Lock Type
+10220: Lock Type Cannot Be Empty
+20000: Equipment Cannot Be Empty
+20001: Equipment {v0} Has Been Approved
+20002: Work order {v0} Has Been Approved
+20003: MES System {v0} Equipment State Is {v1} And Equipment Cannot Be Batch Opened
+20004: The Tester Number {v0} Issued By The System Is Inconsistent With The Tester Number {v1} Given By MES
+20005: Equipment Not Approved
+20006: 'Equipment Can Not Found: {v0} '
+20007: ' {v0} EAP LotVerfy Check Failed: {v1} '
+20008: ' {v0} EAP Cancel TrackIn Check Failed: {v1} '
+20009: Handler FullSiteQty Less Than Zero
+20010: Please  Eqp HeadId
+20011: Recover Summary Fail {v0} Record Not Found
+20012: Must Choose A Parent-Attribute
+20014: The Spare Part Has No Enough LifeTime To Finish This Lot
+20015: 'Rule Check Fail:'
+20016: Remote Path Connect Fail
+20017: Get Remote Recipe Rule Fail
+20018: AQL Standard Rules Get Failed
+20019: The Handler Already Has Binding Tester
+20020: Get Track Out Info Fail Record Not Found
+20021: Track Out Fail Record Not Found
+20022: Track Out Fail
+20023: The Tester Already Has Binding Handler
+20024: Socket Info List Is Empty
+20025: Can Not Find This Spare Part Record
+20026: Equipment Info Can Not Be Null
+20027: Material Info Can Not Be Null
+20028: Material Info Is Error
+20029: Material Length Must Larger Than Zero
+20030: The Current Material Has Not Been Loaded And Unloaded From Machine
+20031: Equipment The Maximum Number Of Sites Is Not Maintained
+20032: CC Interface TMSUIToEAP_SetMaterialInfo Returns The Error Message： {v0}
+20033: Socket Can Not Be Selected Repeatedly
+20034: User【 {v0} 】No Permission For Shift Handover Page
+20035: User【 {v0} 】Password Is Incorrect
+20036: User【 {v0} 】No Permission For Shift Handover Page
+20037: User【 {v0} 】Don Not Have Any Permissions
+20038: User【 {v0} 】Password Is Incorrect
+20039: 'MES Exception:'
+20040: Eqp {v0} Is Already Trackout
+20041: Lot {v0} Is Already Trackout
+20042: ' {v0} CC TrackIn Fail： {v1} '
+20043: ' {v0} Record Not Found'
+20044: TrackOut Fail Choose Finish Holdbut Finish Hold Code Is Empty
+20045: Failed To Cancel Inbound Not Found
+20046: Please Add Equipment layout First
+20047: 'OA Hifix Exception:'
+20048: Lot Info Is Not Match With Recipe InfoPlease Confirm
+20049: 'PE Recipe Exception:'
+20050: 'Track Out Success Lot Hold :'
+20051: MES System {v0} Equipment PM Time Is {v1} The Equipment Cannot Be Approved
+20052: Work Order Information Does Not Exist In The System
+20053: 'EAP Error Info:'
+20056: For The Test Machine Column You Need To Spell The Test Machine Head With An Underscore
+20057: Sorting Machine And Testing Machine Cannot Allow Duplication
+20058: 'Eqp PPSelect Fail:'
+20059: Material Box Is Necessary
+20060: Equipment No.+recipe Already Exists
+20061: Start Time And End Time Cannot Be Empty
+20062: Eqp Not Found
+20064: Parent State Not Found
+20065: The New State Cannot Be The Same As The Current State
+20066: Cannot Switch To This State
+20067: The State Cannot Be Found
+20068: A Parent State With The Same Name Already Exists
+20069: A Child State With The Same Name Already Exists In The Parent State
+20070: Level 2 Alarm State Does Not Exist. Please Go To The State Standard Definition Page To Add It
+20071: Eap State Code Not Found
+20072: Can Not Delete This Record
+20073: The Odd Lot Id Can Not Marge In Lot
+20074: The Uph With Equipmentrecipe {v1} Has Varified Please Confirm
+20075: The Conversion Form With Equipment Is Existed
+20076: The Current User Does Not Have Permission To Delete Conversion From With Epuipment
+20077: 'the Next State Does Not Exist Please Go To The State Standard Definition Page To Add The Secondary State'
+20078: The Next State Of The Repair Request Does Not Exist Please Add Data In The Data Field
+20079: Action Denied The Current User Does Not Have Permission To Operate
+20080: Get Tape Qty Fail {v0}
+20081: The Current User Does Not Have Permission To Change This State
+20082: Role Not Exist
+20083: The Conversion Form State Iscan Not {v1}
+20084: 'conversion Fail Get Exception: {v0} '
+20085: Eqpipment State Can Not Change While Under Repairing
+20086: The Uph With Equipmentrecipe {v1} Has Confirmed Please Confirm
+20089: The Uph With Equipmentrecipe {v1} Has Be Rejected Please Confirm
+20090: The Type And Recipe And Config Must Be Sameotherwise Can Not Be Verified
+20091: Data Whose Upper And Lower Limits Are Numbers Can Only Be Numbers
+20092: 'audit Failed To Call Oa Interface:'
+20093:
+  'Manually Create The Machine Change Order The Next Machine Condition Should Be: 48 Waiting For The Foreman To Deal
+  With It'
+20104: State Code Already Exists
+20105: Has Child State
+20106: The State Name Already Exists
+20107: Spare Part Category Already Exists
+20108: Spare Part Model Already Exists
+20109: The Expiration Date Should Be Greater Than Or Equal To The Date Of Manufacture
+20110: No visible permission to operate the device
+30001: Hold Lot Is Required
+30002: Equipment Is Required
+30003: Hold Code Is Required
+30004: Device Type + Alarm Code Has Been Configured And Cannot Be Configured Again
+30005: Alarm Level Is Required
+30006: Actions Is Required
+30007: Alarm Level Name Is Exist
+30008: Please Select Production Line Level
+30009: Please Add At Least One Alarm Code
+30010: The Alarm Code Cannot Be Repeated
+30011: Alarm Code Cannot Be Empty
+30012: Action Code Has Exist
+30013: Action Name Has Exist
+30014: Actions Associated With Alarm Levels Cannot Be Deleted
+30015: The Alarm Level Of An Associated Alarm Rule Cannot Be Deleted
+30016: Alarm Code Has Exist
+30017: Actions With Associated Alarm Levels Cannot Be Updated To Invalid Data
+30018: The Production Line Level + Alarm Code Has Been Configured And Cannot Be Configured Again
+30019: Please Select The Production Line Level
+30021: Duplicate Alarm Code Of This Device Model
+30022: Duplicate Alarm Code Of This Device Number
+30023: The Effective Time Cannot Be Greater Than 9999 Less Than 0
+30024: Unlock Failed {v0}
+30025: Please Select A Device Type
+40000: Spare Part Is Not Enough Stockcurrent Stock {v1}
+40001:
+  The State Of The Spare Parts {v0} Is Not Consistent With The Current State Of {v1}. Only The Spare Parts To Be Used
+  Can Be Collected
+40002:
+  The State Of Spare Parts {v0} Is Not Consistent With The Current State Of {v1}. Only The Parts To Be Returned Can Be
+  Returned
+40003: Spare Part Is Not Exist
+40004: Suit Record Is Already Existed
+40005: Create Prelend Form Fail {v0} Record Not Found
+40006: No Spare Part To Lend For This Workorder In The Stock
+40007: Prelendform Is Invalid
+40008: The State Of This Spare Part Is {v0} And Cannot Be Collected
+40009: This Spare Part Is Not Match
+40010: 'The Number Of Spare Part Is Errorin Stock : Lend : {v1} '
+40011: Spare Part Lend Fail Record Not Found
+40012: This Stagelife Record Is Already Exists
+40013: Please Add At Least One Suit
+40014: Please Add At Least One Standard Info
+40015: Start Index Must Less Than Stop Index {v1}
+40016: Standard  Must Less Than Stop Index {v1}
+40017: Start Index Between Start Index {v1} To Stop Index {v2} Please Confirm And Retype
+40018: This Spare Part Check Form Does Not Exist
+40019: The Material Has Been Put On The Machine
+40020: Spare Part Flag Iscan Not Return
+40021: Material Type Is Existed
+40022: Material Type Has Been Bound
+40023: Material Code Is Existed
+40024: The State Of The Spare Part {v0} Does Not Conform To The Current State Of {v1}. Only Good Can Be Used
+40025: Spare Part Hdstate Is Not Matchcurrent Hdstate Is {v1} Can Not Send Back
+40026: Material Is Not Exist
+40027: Material Not On Board
+40028: The Current State Of The Spare Part {v0} Is {v1}. The Machine Can Only Be Started When The Machine Is Waiting
+40029: Spare Part Need Get Off Machine Before Return
+40030: Spare Part Already Lend On Machine
+40031: Spare Parts Are Not Loaded
+40032: Can Not Find Effective Spare Part {v0} Action Fail
+40033: Eap Ouitoeap_setconsumableslifetime Return Error Message： {v0}
+40034: Eap Tmsuitoeap_getconsumableslifetime Return Error Message： {v0}
+40035: 'Get Redis Track Lot Info Error: {v0} '
+40036: This Spare Part Model With Head Is Binded
+40037: Mes Return Error： {v0}
+40038: Material Can Not Load On Equipmentdate Is Over Expire_Date + Expire_Use_Days( {v1} )
+40039: This Spare Part Model Is Bound
+40040: 'Check Spare Part Info Error: {v0} '
+40041: Spare Part {v0} Is In Use And Cannot Be Deleted
+40042: The Head {v0} Of Equipment Is Occupied
+40043: Spare Part Type Is Not Existplease Confirm
+40044: Material Type Is Not Existplease Confirm
+40045: Spare Part Is Not Load On Eqptrack In Fail
+40046: Eqp Has No Spare Part Load Onplease Confirm
+40047: The Type Of Spare Part Is {v1} Not {v2} Please Confirm
+40048: Eqp Has No Material Load Onplease Confirm
+40049: The Type Of Material Is {v1} Not {v2} Please Confirm
+40050: Spare Part Lend Quantity Is {v1} Can Not Return {v2}
+40051: 'Check Material Load Info Fail: {v0} '
+40052: Spare Part Model Bind None Product Can Not {v1}
+40053: Spare Part Model Does Not Bind Producttype {v1}  Can Not {v2}
+40054: Spare Part Or Material Barcode Is Emptyplease Confirm
+40055: All Spare Part Types Are Already Binding On This Eqp Type
+40056: Equipment Not Bind Spare Part Type {v1} Please Confirm
+40057: Equipment Not Bind Any Spare Part Typeplease Confirm
+40058: Product With Spare Part Model And Head Id Is Miss Match With Spare Part On Equipment
+40059: Eqp Binding Spare Part Type Is Not Match With Spare Part Type On Eqpplease Confirm
+40060: 'Eap Ouitoeap_Getallconsumableslifetime Return Error Message: {v0} '
+40061: Equipment Is Runningcan Not Get Off Material
+40062: Material Effect Time Is Time Outplease Confirm
+40063: Material Is Already Start
+40064: Material Effect Time Not Set
+40065: Spare Part Has Sended Out To Repairplease Confirm
+40066: Spare Part Can Not Return Back By Not Send Out To Repairplease Confirm
+40067: Spare Part Lend To Eqp {v1} Quantity Is {v2} Can Not Return {v3}
+40068: Part Id Is Not Exist
+40069: Part Location Is Not Exist
+40070: No Parts For Grant
+40071: No Parts For Return
+40072: No Parts For Take Back
+40073: The Current State Of The Failed Spare Part {v0} Is {v1} And Cannot {v2}
+40074: Tool Serial Number Already Exists
+40075:
+  The State Of The Spare Parts {v0} Is Inconsistent. The Current State Is {v1}. Only The Spare Parts That Are Ready For
+  Use Can Be Scrapped
+40076:
+  The State Of The Spare Part {v0} Is Inconsistent, The Current State Is {v1}, And The Scrapping Can Be Confirmed Only
+  When The Scrapping State Is Applied
+40077:
+  The Operation Failed. The State Of The Collection Sheet {v0} Is Inconsistent. The Current State Is {v1}, And Cannot
+  delete
+40078: The State Of The Failed Spare Part {v0} Is Inconsistent, The Current State Is {v1}, And It Cannot Be Issued
+40079: Spare Part Not Enough
+40080: The Received Quantity Shall Be Consistent With The Issued Quantity
+40081: The Model Of Spare Part Number Is Inconsistent With That In The Requisition
+40088: The Material Number Does Not Exist
+40089: Tooling {v0} Needs Maintenance
+40090:
+  Please Scan The Spare Part Number Before Operation. If You Manually Enter The Spare Part Number, Press Enter After
+  Entering
+40091: The Record Of Application For Scrap Does Not Exist, So It Cannot Be Applied For Scrap
+40092: The Record Confirming The Scrap Does Not Exist, And The Scrap Cannot Be Confirmed
+40093: The Record Of Rejection Does Not Exist, And The Rejection Cannot Be Confirmed
+40094: The Spare Part Number Does Not Exist
+40095: Issue List Does Not Exist, Cannot Operate
+40096: Spare Part {v0} Has Been Used And Cannot Be Modified
+40097: Material {v0} Has Been Used And Cannot Be Modified
+40098: Material {v0} Is In Use And Cannot Be Deleted
+40099: Operation failed, receipt {v0} State mismatch，The current state is {v1} cannot modify
+50000: Condition Information Cannot Be Empty
+50001: Data Content Cannot Be Empty
+50002: The Number Of Decimal Places Cannot Be Empty
+50003: Value Or Interval Cannot Be Empty
+50004: Fail Standard Value Cannot Be Empty
+50005: Interval Value Information Cannot Be Empty
+50006: Data Type And Value Or Interval Cannot Be Selected To Bring Out Value
+50007: Check List Results As Form Results Must Be Enabled For Verification
+50008: Form Item Input Verification Failed
+50009: Condition And Condition Value Cannot Be Empty
+50010: Condition {v1} Has Exist
+50011: There Can Only Be One Interval Value Information
+50012: The Form Has No Binding Time
+50013: 'The Error Information Returned By Cc Is: {v0} '
+50014: 'Mes:The Error Message Of Getlotinfo Interface Is: {v0} '
+50015: 'Mes:The Error Message Of Getsamples Interface Is: {v0} '
+50016: The Basic Information Of The Equipment Is Not Found
+50017: There Is No Form Item Bound To This Form
+50018: The Form Item Is Not Bound To The Form Item
+50019: The Form Does Not Have A Form Item That Meets The Criteria
+50020: The Form Number Was Not Found
+50021: There Is No Batch For The Current Equipment
+50022: The Current Equipment Does Not Exist
+50023: 'Mes:the Error Message Of Getpackagematerial Interface Is: {v0} '
+50024: The Upper And Lower Limits Of The Form Item Are Empty
+50025: Auto Check Failedfail
+50026: Equipment Type Not Found
+50027: Element {v0} Is Already Existed
+50028: Element Is Not Existed
+50029: Tree Name Is Already Existed
+50030: Tree Name Is Not Existed
+50031: Please Add At Least One Element
+50032: Tree Data Is Already  Existed
+50033: Tree Data Is Not Exist
+50034: User Account Is Required
+50035: User Password Is Required
+50036: Ldap Authentication Failed
+50037: Tree Data Secondary Node Is Not Exist
+50038: Delete Fail The Element Is Using
+50039: Add Secondary Node Fail Please Check Tree Definition
+50040: In The Layout Page Only Sorters Can Be Added
+50041: The Current Device Model Is In Use And Cannot Be Deleted
+50042: The Current Device Type Is In Use And Cannot Be Deleted
+50043: Item Is In Use And Cannot Be Deleted
+50044: Ftp Server Has Exist
+50045: Ftp Server Has Been Setting
+50046: Please Select A File That Has Not Been Resolved
+50047: The Current App Has Been Bound To The Machine
+50048: The Current Machine Has Been Bound To The App
+50049: The Current App Is Not Bound To A Device
+50050: Line Level Is Required
+50051: The Host Name Already Exists
+50052: The Department Name Already Exists
+50053: The Equipment Oode Is Required
+50054: Please Select The Parent Node
+50055: Level Name Is Required
+50056: Level Name Has Exist
+50057: Delete Equipment First
+50058: Account Has Exist
+50059: Role Name Has Exist
+50060: User Group Name Has Exist
+50061: Devices Cannot Be Added On A This Level
+50062: Devices Code Is Exist
+50063: Parent Department Name Is Not Exist
+50064: Equipment Type Has Exist
+50065: Equipment Model Has Exist
+50066: Device Model Is Not Allowed To Be Repeated
+50068: Department Name Is Not Allowed To Be Repeated
+50069: Supplier Name And Supplier Batch Number Are Not Allowed To Be Repeated
+50070: Parent Is Invalid
+50071: Please Enter The Attribute Name
+50072: Supplier Batch Numbers Are Not Allowed To Be Repeated
+50073: Sorting Machine And Testing Machine Cannot Allow Duplication
+50074: The Current Department Is In Use And Cannot Be Deleted
+50075: Department Category Is Invalid
+50076: Department Category Is Required
+50077: Max Level No Is 3
+50078: Level Name Is Repeted At Same Tree
+50079: Delete User Group First
+50080: User Id Not Exist
+50081: This User Is In Use And Cannot Be Deleted
+50082: This Role Is Used And Cannot Be Deleted
+50083: This Data Is Used And Cannot Be Deleted
+50084: This User Is Used In User Group Manage And Cannot Be Deleted
+50085: This Device Is Used In User Group Manage And Cannot Be Deleted
+50086: Please Select A Device Type
+50087: This User Is Used In The Device And Cannot Be Deleted
+50088: This User Group Is Used In The Device And Cannot Be Deleted
+50089: This Production Line Level Is Used In Alarm Statistics Configuration And Cannot Be Deleted
+50090: The Alarm Code Is Used In Alarm Statistics Configuration And Cannot Be Deleted
+50091: This Production Line Level Is Used In Alarm Setting Manage And Cannot Be Deleted
+50092: The Alarm Code Is Used In Alarm Setting Manage And Cannot Be Deleted
+50093: You Cant Choose To Be Your Supervisor
+50094: Operator Department Does Not Exist
+50096: This Menu Has Submenus And Cannot Be Deleted
+50098: The Maximum Value Is Not Less Than The Minimum Value
+50099: Dictionary Value Already Exists
+50100: Dictionary Name Already Exists
+50101: Form Item Already Exists
+50102: Form Already Exists
+50103: Item Categories And Form Types Are Not Allowed To Duplicate
+50104: Parent Name Does Not Exist
+50105: Cannot Select Itself As The Superior Menu
+50106: A Child Menu Cannot Be Selected As A Superordinate Menu
+50107: Please Enter Kafka Server Address
+50108: Kafka Server Connection Failed
+50109: No device is checked
+50110: Dictionary Type Already Exists
+70000: This File Already Exists In The Current Path
+70001: The File Record That Needs To Be Updated Does Not Exist Please Refresh The File List Before Operation
+70002: Dms Tree Data Not Exist
+70003: Tpir-Ft Form Info Not Exist
+70009: The Work Order Cannot Be Deleted
+70010: The Work Order Cannot Be Modified
+70011: The Device State Does Not Exist Please Go To The State Switching Page To Add The Device State
+70012: Level  Id  Cannot Be Empty
+70013: Only Members Of The Transfer Department Can Receive Orders
+70014: The With Form Type {0} Does Not Exist
+70015: The Equipment Is Not Confirmed By Qc
+70016: The Operation Confirmed By Qc Has Not Been Carried Out
+70017: Form Does Not Exist
+70018: Data Does Not Exist Please Maintain The State In The Data Dictionary (37 - Return To Op)
+70019: Data Does Not Exist Please Add State On The State Standard Definition Page (37 - Return To Op)
+70020: The Equipment Repair Request Already Exists
+70021: Repair Request Operation Failed With Exception
+70022: Cannot Switch To This State
+70023: Please Maintain The Data In The Data Field
+70025: The Work Order Has Fail Item Please Fill In The Correct Data
+70026: Please Use The Account Number Of Wb Equipment Technician To Operate Pm
+70027:
+  'The Next State Of Manually Creating A Repair Request Should Be: 29 Waiting For The Equipment Technician To Process'
+80000: Unable To Generate A Summary, Make Sure The Cron Expression Is Correct
+80001: The Server Ip Address Already Exists
+80002: The Cron Expression Is Wrong
+80003: The Record Has Been Executed, Refresh The List And Click Again To Modify
+80004: The Task Description Already Exists
+80005: The Task Type Already Exists
+80006: The Email Address Of The Sender Is Not Found
+80007: The Sender Is Not Selected
+80008: The Email Id Was Not Found
+80009: The Server Ip Has Been Used At The Resource Alarm Threshold Setting And Cannot Be Deleted
+80010: The Server Ip Is Already In Use At The Task Setting And Cannot Be Deleted
+90000: File Type Is Error
+90001: File Record Is Existed
+90002: Sbl Spec Is Necessary
+90003: Waferid Contains Duplicates
+90004: 'The Parameter Name Contains Duplicates {v0} '
+90005: The Combination Of Parameter Names Repeated
+90006: The Lower Limit Of The Parameter Name Is Greater Than The Upper Limit
+90007: Product Maturity Is Not Enough
+90008: Product Maturity Is Not Configured Or Set Incorrectly
+90009: The Appropriate Sbl Configuration Was Not Found
+90010: Neither The Sbl Master Key Information Was Filled In
+90011: Sbl Sub-table Information Is Duplicated
+90012: 'The Parsing Process Reported An Error {v0} '
+90013: The Corresponding Sub-table Information Was Not Found In The Bins Table
+90014: The Upper Limit Of The Sbl Sublist Is Not Set
+90015: The Lower Limit Of The Sbl Sublist Is Not Set
+100007: 'The Current Device Does Not Exist In The System {v0} '
+100034: The Current Batch Of Machines Used Is
+100035: Different Types Of Materials Or Consumables Cannot Use The Same Barcode
+110000: Unable To Generate Summary Please Confirm Schedule Settings Are Correct
+110001: The Server Ip Address Already Exists
+110002: The Cron Expression Is Incorrect
+110003: This Record Has Been Executed Refresh The List And Click Again To Modify It
+110004: The Task Description Already Exists
+110005: The Task Type Already Exists
+999999: Operation Failed

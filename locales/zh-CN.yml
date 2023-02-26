@@ -1,0 +1,1865 @@
+# global common
+nowTime: 当前时间
+workbench: 工作台
+module: 模块
+fullScreen: 全屏
+add: 新增{val}
+query: 查询
+edit: 编辑{val}
+modify: 修改
+delete: 删除
+import: 导入
+export: 导出
+download: 下载
+noData: 暂无数据
+selected: 已选择
+clear: 清空
+serverIp: 服务器IP
+day: 天
+hour: 小时
+minute: 分钟
+index: 序号
+yes: 是
+no: 否
+userName: 用户名
+password: 密码
+createTime: 创建时间
+mail: 邮箱
+requestError: 请求失败
+title: 标题
+warning: 警告
+user: 用户
+description: 描述
+translate: 翻译
+save: 保存
+resetPassword: 重置密码
+viewDetail: 查看详情
+search: 查询
+baseInfo: 基础信息
+selectParent: 选择父级
+parent: 父级
+notFoundPage: 未找到页面
+back: 返回
+keyWord: 关键字
+creator: 创建人
+source: 来源
+action: 操作
+failed: 失败
+success: 成功
+processing: 执行中
+system: 系统
+reset: 重置
+type: 类型
+time: 时间
+closed: 已关闭
+all: 全部
+please: 请
+timeRange: 时间范围
+refresh: 刷新
+copy: 复制
+seleteAll: 全选
+confirm: 确认
+cancel: 取消
+noPermission: 暂无权限
+notEmpty: '{val}不能为空'
+
+# axios response state
+response:
+  state:
+    400: 请求错误
+    401: 登录失效，请重新登录
+    403: 拒绝访问
+    404: 请求错误，未找到该资源
+    405: 请求方法未允许
+    408: 请求超时
+    429: 请求频繁，请稍后重试
+    500: 服务器错误
+    501: 网络未实现
+    502: 网络错误
+    503: 服务不可用
+    504: 网络超时
+    505: http版本不支持该请求
+
+# 模块
+config: 系统配置
+assembly: Assembly
+ams: AMS
+testing: Testing
+systemMonitor: 系统监控
+
+# layout-setting
+themeConfig: 主题配置
+languageSwitch: 语言切换
+themeMode: 主题模式
+minimum: 极小
+smallScale: 小型
+standard: 标准
+extremely: 极大
+modeSwitch: 模式切换
+languageSetting: 语言设置
+systemTheme: 系统主题
+buttonSetting: 按钮设置
+tableSetting: 表格设置
+stripPage: 条 / 页
+toggleLanguageTips: 确定切换为 {val} 吗 ？
+
+# 规则验证
+rules:
+  ipRule: 服务器IP格式错误
+  officePhoneRule: 办公电话格式错误
+  mobilePhoneRule: 手机号码格式错误
+  emailRule: 邮箱格式错误
+  onlyNumbersRule: 只能包含数字
+  onlyLetterRule: 只能包含字母
+  onlyLowercaseRule: 只能包含小写字母
+  onlyUppercaseRule: 只能包含大写字母
+  onlyIntRule: 只能包含整数
+  onlyPositiveIntRule: 只能包含正整数
+  onlyPositiveIntZeroRule: 只能包含0及正整数
+  onlyNegativeIntRule: 只能包含负整数
+  onlyChineseRule: 只能包含中文字符
+  onlyNotChineseRule: 只能包含非中文字符
+  formatError: 格式错误
+  lengthRule: 长度在 {min} 到 {max} 位字符
+  onlyMinLengthRule: 长度最少 {min} 位字符
+  onlyMaxLengthRule: 长度最多 {max} 位字符
+  sizeRule: 数值需在 {min} 到 {max} 之间
+  onlyMinSizeRule: 最小值不得小于 {min}
+  onlyMaxSizeRule: 最大值不得超过 {max}
+
+# 弹框
+dialog:
+  activate: 确定激活 {val} 吗 ?
+  freeze: 确定冻结 {val} 吗 ?
+
+# base-tree
+baseTree:
+  filter: 输入关键字进行过滤
+
+# 表格
+baseTable:
+  item: 项
+  total: 共
+  strip: 条
+
+# 表单
+baseForm:
+  expand: 展开
+  putAway: 收起
+  pleaseSelect: 请选择{val}
+  pleaseInput: 请输入{val}
+
+# 文件上传
+file:
+  astrictImgHint: 仅支持 JPG, PNG, JPEG, SVG, ICO 格式
+  astrictXlsxHint: 仅支持 xlsx 格式
+  astrictApkHint: 仅支持 Apk 格式
+  whichRow: "第{'{'}{val}{'}'}行"
+  templateError: 模板不正确
+uploadSuccess: 上传成功
+
+# 理论UPH维护
+theoryUph: 理论UPH
+theoryUphMaintain: 理论UPH维护
+recipe: Recipe
+modifyProject: 修改项目
+modifyContent: 修改内容
+modifyRecord: 修改记录
+deleteEquipmentTips: 双击可删除设备，右键修改设备
+addEquipment: 新增设备
+marginLeft: 左边距
+marginTop: 上边距
+width: 宽度
+height: 高度
+modifyEquipment: 修改设备
+
+# 工作记录
+workRecord: 工作记录
+sorter: 分选机
+timeSlot: 时间段
+batchNumber: 批号
+productionBatchNumber: 批号
+programName: 程序名称
+customerBatchNumber: 客户批号
+testMachine: 测试机
+testHead: 测试头
+dataStatistics: 数据统计
+
+# 测试数据收集
+testingHome: Testing 首页
+testingDataCollection: 测试数据收集
+
+# UPH报表
+uphReport: UPH报表
+workingProcedure: 工序
+totalUph: 总UPH
+targetUph: 目标UPH
+
+# 报警历史记录
+alarmCode: 报警代码
+alarmState: 报警状态
+alarmHistoryRecord: 报警历史记录
+alarmStartTime: 报警开始时间
+alarmEndTime: 报警结束时间
+duration: 持续时长
+durationSecond: 持续时长(s)
+machineSelfAlarm: 机台自身报警
+lotNumebr: 批次号
+batchDetail: 批次明细
+executeActionDetail: 执行动作明细
+startQueryRange: 起始查询范围
+endQueryRange: 结束查询范围
+
+# 设备状态查询
+equipmentType: 设备类型
+productName: 产品名称
+machine: 机台
+rate: 速度
+lotType: 批次类型
+yield: 产量
+jobNumber: 工号
+
+# 材料上下机记录
+currentLength: 当前长度
+
+# 材料信息管理
+materialNumber: 材料编号
+materialCode: 物料号
+purchaseOrderNumber: 采购单号
+initCount: 初始数量
+currentCount: 当前数量
+productionDate: 生产日期
+expireDate: 过期日期
+expireUseDay: 过期使用天数
+startTimer: 开始计时
+startTimerTime: 开始计时时间
+supplierBatchNumber: 供应商批号
+isStartTimer: 是否开始计时
+estimateExpireTime: 预计过期时间
+boardingTime: 上机时间
+
+# 材料管理
+materialManage: 材料管理
+materialCategory: 材料类别
+materialInfo: 材料信息
+materialInfoManage: 材料信息管理
+materialBoarding: 材料上机
+materialDisembark: 材料下机
+materialMachineRecord: 材料上下机记录
+
+# 改机单
+changeMachineOrder: 改机单
+changeMachineTime: 改机时间
+changeMachineInfo: 改机信息
+changeMachineOrderNumber: 改机单号
+verifier: 审核人
+verifyTime: 审核时间
+currentResponsiblePerson: 当前责任人
+responsibleDepartment: 责任部门
+currentResponsibleDepartment: 当前责任部门
+receiverOfEquipment: 设备接收人
+receiptTime: 接收时间
+from: 从
+convertTo: 转换为
+lotId: Lot ID
+applyInfo: 申请信息
+review: 审核
+takeOver: 接手
+changeMachineConfirm: 改机确认
+changedHand: 转手
+qcConfirm: QC确认
+equipmentReceive: 设备接收
+equipmentShutdownType: M/C Down Type 设备停机类型
+validateFail: 验证失败
+failReason: 失败原因
+checkItemName: 检查项名称
+checkItemResult: 检查项结果
+finalResult: 最终结果
+validateFormIsPassTips: 存在 Fail 项，请填写正确的数据
+
+# 设备实时监控
+equipmentRealtimeMonitor: 设备实时监控
+
+# 理论UPH查询
+theoryUphQuery: 理论UPH查询
+examine: 审核
+oaExamine: OA审核
+correctionReason: 修正原因
+promote: 提升
+correctionUPH: 修正UPH
+
+# 设备概览
+equipmentOverview: 设备概览
+stateSwitcher: 状态切换人
+stateSwitchTime: 状态切换时间
+stateRemark: 状态备注
+switchState: 切状态
+repair: 报修
+changeMachine: 改机
+currentStateRemark: 当前状态备注
+LevelOneState: 一级状态
+LevelTwoState: 二级状态
+LevelTwoStateDescription: 二级状态描述
+
+# 报修管理
+repairManage: 报修管理
+repairInfo: 报修信息
+repairsInfo: 维修信息
+workOrderNumber: 工单号
+productType: 产品类型
+responsible: 责任人
+alarmInfo: 报警信息
+lastDisposeTime: 最后处理时间
+totalDisposeTime: 总处理时间
+equipmentAlarmInfo: 设备报警信息
+primaryCause: 根本原因
+paramsModify: 参数修改
+repairsMeasure: 维修措施
+spareReplace: 备件更换
+operateRecord: 操作记录
+qcConfirmProject: QC确认项目
+checkList: 检查表
+repairsConfirmProject: 维修确认项目
+
+# 报警解锁
+productionManage: 生产管理
+alarmUnlock: 报警解锁
+unlock: 解锁
+unlockDate: 解锁日期
+unlockPeople: 解锁人
+unlocking: 解锁中
+unlockSucceeded: 解锁成功
+unlockFaild: 解锁失败
+
+# 设备布局管理
+equipmentLayoutManage: 设备布局管理
+equipmentLayout: 设备布局
+layoutName: 布局名称
+areaName: 区域名称
+layoutWidth: 布局宽度
+layoutHeight: 布局高度
+layoutType: 布局类型
+backgroundImage: 背景图片
+copyLayout: 复制布局
+sourceLayout: 来源布局
+selectMachine: 选择机台
+
+# 设备布局详情
+equipmentLayoutDetail: 设备布局详情
+
+# 产量上报设置
+outputReportSetting: 产量上报设置
+FixedFrequency: 固定频率
+FixedTime: 固定时间
+outputReport: 产量上报
+shift: 班别
+frequency: 频率
+frequencyMillisecond: 频率 (s)
+modifier: 修改人
+modifyTime: 修改时间
+
+# mtba
+mtba: MTBA
+calculateMTBA: 是否计算MTBA
+isEqpAlarm: 机台自身报警
+isSwitchAlarm: 是否切换报警
+isSwitchAlarmState: 是否切换机台状态
+productionLineLevel: 产线层级
+
+# 登录
+login: 登录
+welcome: 欢迎
+logout: 退出登录
+siteTitle: 赛美特 E-FAB
+semiName: 赛美特智能制造系统
+loginPage:
+  form:
+    title: 欢迎登录
+    login: 登录
+
+# 状态标准定义
+stateStandard: 状态标准
+stateStandardDefinition: 状态标准定义
+stateStandardDeleteTips: 删除时将同步删除子级数据，确定删除选中的数据吗 ?
+stateName: 状态名称
+stateCode: 状态代码
+parentState: 父级状态
+backgroundColor: 背景颜色
+mesState: MES状态
+eapState: EAP状态
+timeGrainClassify: 时间稼动分类
+stateLevel: 状态级别
+visibleRole: 可见角色
+switchRole: 可切换角色
+associateSetting: 关联设置
+currentLevelOneState: 当前一级状态
+currentLeveTwoState: 当前二级状态
+prevState: 前一状态
+nextState: 后一状态
+
+# 菜单管理
+menuList: 菜单列表
+menuCategory: 菜单分类
+otherPermission: 其他权限
+routeName: 路由名称
+routePath: 路由地址
+componentPath: 组件地址
+parentMenu: 上级菜单
+isCache: 是否缓存
+externalLink: 外部链接
+permissionButton: 权限按钮
+isVisible: 是否可见
+menuIsVisible: 菜单是否可见
+web: 网页
+app: APP
+icon: 图标
+visible: 可见
+inVisible: 不可见
+addChild: 添加子级
+addSibling: 添加同级
+deleteMenu: 删除菜单
+confirmDelete: 确认删除
+menu: 菜单
+pleaseSelectIcon: 请选择图标
+order: 排序
+permissionValue: 权限值
+linkName: 外链名称
+linkPath: 外链地址
+layout: 布局
+layout1: 布局一
+layout2: 布局二
+layoutTips: '
+  布局一： 包含菜单、头部、面包屑<br /> 布局二： 空白的布局
+  '
+
+# 设备信息管理
+equipmentInfoManage: 设备信息管理
+equipmentInfo: 设备信息
+factory: 工厂
+equipmentLevel: 设备层级
+generateQRcode: 生成二维码
+print: 打印
+
+#
+equipment: 设备
+eqpId: 设备编号
+nodeLevel: 产线层级
+selectUser: 选择用户
+prodTreeNode: 产线结构树
+permissionAssign: 权限分配
+eqpName: 设备编号
+eqpType: 设备类型
+levelName: 层级名称
+
+# 报表管理首页
+requestCount: 请求次数
+errorCount: 错误次数
+service: 服务
+serviceCall: 服务调用
+slowService: 慢服务
+errorService: 错误服务
+
+# tags-view
+tags:
+  refresh: 刷新
+  closeCurrentTag: 关闭当前标签
+  closeOtherTags: 关闭其他标签
+  closeLeftTags: 关闭左侧标签
+  closeRightTags: 关闭右侧标签
+
+# 任务设定
+taskAbstract: 任务摘要
+nextExecuteTime: 下次执行时间
+actualStartTime: 实际开始时间
+actualEndTime: 实际结束时间
+executeNow: 立即执行
+cron: Cron表达式
+cronError: Cron表达式错误
+taskStateList:
+  Ongoing: 执行中
+  Fail: 执行出错
+  Success: 执行成功
+  Idle: 待执行
+nextFiveRunTime: 最近5次运行时间
+
+# 任务执行记录
+taskExecuteRecord: 任务执行记录
+taskDescription: 任务描述
+taskType: 任务类型
+taskState: 任务状态
+logInfo: 日志信息
+executeTime: 执行时间
+startTime: 开始时间
+endTime: 结束时间
+executeCount: 执行次数
+task: 任务
+viewLog: 查看日志
+
+# 资源报警阈值设定
+resourceAlarm: 资源报警阈值
+resourceAlarmSetting: 资源报警阈值设定
+cpuThreshold: CPU阈值
+memoryThreshold: 内存阈值
+diskThreshold: 磁盘阈值
+recipients: 收件人
+intervalTime: 检查间隔
+isOpen: 是否开启
+
+# 服务器资源监控
+serverResourceMonitor: 服务器资源监控
+cpuUsage: CPU使用率
+cpuUsageMonitor: CPU使用率监控
+memoryUsage: 内存使用率
+memoryUsageMonitor: 内存使用率监控
+diskUsage: 磁盘使用率
+core: 核心
+used: 已使用
+idle: 空闲
+totalCount: 总量
+logicCpu: 逻辑CPU
+physicsCore: 物理核心
+physicsCpu: 物理CPU
+chart:
+  single: 个
+
+# 服务器管理
+purpose: 用途
+serverManage: 服务器管理
+server: 服务器
+
+# 报表管理
+reportManage: 报表管理
+reportManageHome: 报表管理首页
+productionLineStructure: 产线结构
+# 系统日志
+systemLog: 系统日志
+logLevel: 日志级别
+loginLog: 登录日志
+loginIP: 登录IP
+loginType: 登录类型
+loginTime: 登录时间
+logoutTime: 登出时间
+accountPassword: 帐号密码
+domainAccount: 域账号
+businessType: 业务类型
+senderAddress: 发件地址
+toAddress: 收件地址
+emailSubject: 邮件主题
+emailContent: 邮件内容
+sendTime: 发送时间
+emailSendRecord: 邮件发送记录
+AMSAlarm: AMS报警
+serverResourceThresholdAlarm: 服务器资源闽值报警
+content: 内容
+contentDetails: 内容详情
+
+# 按钮点击记录
+buttonClickRecord: 按钮点击记录
+buttonName: 按钮名称
+modular: 模块
+modularName: 模块名称
+pageName: 页面名称
+serverIP: 服务端IP
+permissionID: 权限标识
+
+# 接口请求记录
+apiRequestRecord: 接口请求记录
+occurredTime: 发生时间
+apiAddress: 接口地址
+requestMethod: 请求方法
+requestParams: 请求参数
+runTime: 耗时（毫秒）
+loginAccount: 登录账号
+browser: 浏览器
+requestTime: 请求时间
+clientIp: 客户端IP
+errMessage: 错误信息
+
+# assembly报表
+assemblyReport: Assembly报表
+equipmentStateQuery: 设备状态查询
+equipmentState: 设备状态
+timeUtilizationReport: 时间稼动率报表
+equipmentSliceView: 设备切片一览
+produceReport: 产出报表
+percent: 占比
+
+# testing报表
+testingReport: Testing报表
+
+# AMS报表
+amsReport: AMS报表
+mttr: MTTR
+mtbf: MTBF
+site: 站点
+customerCode: 客户代码
+productModel: 产品型号
+statisDimen: 统计维度
+unitSelection: 单位选择
+actualProductionTime: 实际生产时间
+plannedProductionTime: 计划生产时间
+repairTime: 报修时间
+repairCount: 报修次数
+
+# 业务操作记录
+systemOperateRecord: 系统操作记录
+businessOperateRecord: 业务操作记录
+operate: 操作
+operateType: 操作类型
+operator: 操作人
+operateTime: 操作时间
+primaryKey: 主键
+beforeChange: 变更前
+afterChange: 变更后
+
+# 弹窗提示
+tips: 提示
+tipsTitle: 确定注销并退出系统吗？
+determine: 确定
+
+account: 账号
+department: 部门
+role: 角色
+keyword: 关键字
+leader: 主管
+email: 电子邮件
+officePhone: 办公电话
+mobilePhone: 移动电话
+lastLoginTime: 最后登录时间
+totalLoginTimes: 登录总次数
+equipmentManage: 设备管理
+
+# 权限按钮
+permission-button:
+  deleteTooltip: 确定删除选中的数据吗 ？
+  resetPassword: 确定将密码重置为123456 ？
+
+# PAD机台绑定
+padMachineBinding: PAD机台绑定
+equipmentNumber: 设备编号
+padMarkId: PAD标识ID
+padMachine: PAD机台
+
+# 数据字典
+dictionaries: 字典
+attributeName: 字典名称
+attributeType: 属性类型
+attributeValue: 字典值
+parentAttribute: 父属性
+childAttribute: 子属性
+serialNumber: 顺序号
+addTo: 添加
+dictionaryDetails: 字典明细
+dictionaryType: 字典类型
+independentPullDown: 独立下拉
+
+# 供应商管理
+supplierManage: 供应商管理
+supplierName: 供应商名称
+supplier: 供应商
+
+# 角色管理
+roleManage: 角色管理
+roleName: 角色名称
+roleDescription: 角色描述
+creationTime: 创建时间
+pleaseEnterTheRoleName: 请输入角色名
+
+# 角色权限
+rolePermission: 角色权限
+roleList: 角色列表
+rolePermissionAssignment: 角色权限分配
+
+# 项目管理
+projectCode: 项目编码
+projectName: 项目名称
+adminAccount: 管理员账号
+projectManager: 项目经理
+state: 状态
+project: 项目
+product: 产品
+license: 许可证
+menuAssignment: 菜单分配
+eqpCount: 机台总数
+logo: Logo
+miniLogo: Mini Logo
+QRCode: QRCode
+usedNumber: 已使用数
+
+# 表结构
+tableStructure: 表结构
+columnName: 列名称
+columnNo: 列序号
+columnType: 数据类型
+dataLength: 数据长度
+canBeBlank: 是否可为空
+columnDescription: 列描述
+primaryKeyOrNot: 是否主键
+default: 默认值
+tableName: 表名称
+
+# Kafka设置
+kafkaSettings: Kafka设置
+addTopic: Add Topic
+updatePartition: Update Partition
+connect: Connect
+topicName: Topic Name
+partitionCount: Partition Count
+
+# 邮箱管理
+hostName: 主机名称
+portNumber: 端口号
+outbox: 发件箱
+
+# 用户组管理
+userGroup: 用户组
+userGroupManage: 用户组管理
+userGroupName: 用户组名称
+
+# 页面
+basicConfig: 基础配置
+home: 首页
+serverMonitor: 服务器监控
+systemMonitorHome: 服务器监控首页
+
+# Config
+equipmentCount: 设备数
+dataDictionary: 数据字典
+mailManage: 邮箱管理
+adminManage: 管理员配置
+systemManage: 系统管理
+onlineUser: 在线用户
+configHome: 系统配置首页
+taskPlan: 任务计划
+taskSetting: 任务设定
+userManage: 用户管理
+userManagement: 用户管理
+menuManage: 菜单管理
+projectManage: 项目管理
+
+# 电子表单
+electronForm: 电子表单
+formItemManage: 表单项管理
+formNo: 表单号
+formItem: 表单项
+formGroup: 表单组
+dataType: 数据类型
+dataSource: 数据内容
+judgeTypeView: 值或区间
+valid: 是否有效
+belongTo: 归属
+apply: 应用
+formStationResult: 表单/工位结果
+isCheck: 是否自动校检
+isUpload: 是否上传附件
+projectCategory: 项目分类
+formType: 表单类型
+remark: 备注
+formVersionNumber: 表单版本号
+decimalPlaces: 小数位数
+failValue: Fail标准值
+company: 单位
+isCheckList: 是否checkList
+condition: 条件
+conditionValue: 条件值
+checkMode: 条件方向
+conditionNumber: 条件序号
+min: 最小值
+max: 最大值
+containMin: 是否包含最小值
+containMax: 是否包含最大值
+isShow: 是否显示
+
+# 表单管理
+form: 表单
+formManage: 表单管理
+formName: 表单名称
+formPrefix: 表单前缀
+isValid: 是否有效
+
+# 部门管理
+departmentManage: 部门管理
+departmentName: 部门名称
+departmentCategory: 部门类别
+
+# 安装包管理
+apkUpload: 安装包上传
+uploadApk: 上传安装包
+scanCodeDownload: 扫码下载
+versionNumber: 版本号
+updateContent: 更新内容
+fileName: 文件名
+apk: 安装包
+uploadFile: 上传文件
+uploadHint: 点击或者拖动文件到该区域来上传
+
+# AMS
+amsHome: AMS 首页
+alarmBoard: 报警看板
+alarmDashboard: 报警看板
+alarmLevelManage: 报警级别管理
+executeAction: 执行动作
+executeResult: 执行结果
+alarmCodeMaintain: 报警代码维护
+alarmStatistics: 报警统计
+alarmStatisticsConfig: 报警统计配置
+alarmInterval: 报警时间间隔（分钟）
+alarmTime: 报警时间
+consuming: 处理耗时(秒)
+queryStatistics: 查询统计
+alarmActionRecord: 报警动作记录
+alarmCountStatistics: 报警次数统计
+alarmCount: 报警次数
+alarmLevel: 报警级别
+alarming: 报警中
+relatedInformation: 相关信息
+systemName: 系统名称
+alarmRulesSetting: 报警规则设定
+alarmDescription: 报警描述
+alarmActionManage: 报警动作管理
+abscissa: 横坐标
+alarmIsSetting: 报警是否配置
+alarmDate: 报警日期
+statisticsByWeek: 按周统计
+statisticsByMonth: 按月统计
+actionName: 动作名称
+actionCode: 动作编码
+addAlarmCode: 新增报警代码
+execAction: 执行动作
+panalarm: 报警设备
+todayWarn: 今日报警
+equipmentAlarmBoard: 设备报警看板
+currentDeviceAlarm: 当前设备报警
+todayAlarmCount: 今日报警次数
+onGoingCount: 进行中
+closeAlarmCount: 已关闭
+alarmEqpPercent: 报警设备占比
+normalEquipment: 正常设备
+day30EquTop10: 30天报警设备Top10
+day30CodeTop10: 30天报警代码Top10
+day15Tendency: 近15天报警趋势
+day10Tendency: 近10天报警趋势
+day10ActionTendency: 近10天执行动作趋势
+systemExecutionAction: 系统执行动作
+eqpAlarmDuration: 今日设备报警时长
+alarmSetting: Alarm 设置
+alarmBaseInfo: Alarm基本信息
+collectAlarms: 收集报警
+defaultLevel: 默认级别
+repeatCount: 报警触发次数
+effectiveTime: 有效时间{val}
+notGetAlarmEqpState: 不收集报警的设备状态
+HoldLot: Hold批次
+HoldEquipment: Hold机台
+SendEmail: 发送邮件
+SendSMS: 发送短信
+LockEquipment: 锁定机台
+SendWeChatMessage: 发送微信提醒
+alarmActionSetting: 报警动作开关
+alarmDashboardSetting: 报警看板设置
+mailTemplateSetting: 邮件模板设置
+dataArchivingSetting: 数据归档设置
+configured: 已配置
+notConfigured: 未配置
+levelOrEquipment: 层级或设备
+machineAlarm: 是否机台报警
+overwriteExistingSettings: 是否覆盖已有的设定?
+byHierarchy: 按层级
+byEqp: 按设备
+alarmRulesTip: 标记为红色的是未设定规则的层级或设备
+completeMachine: 整机
+lockType: 锁机类型
+lockTypeEmpty: 锁机类型不能为空
+completeLockTypeTip: chamber值不能为空或者port值不能为空
+
+# system-setting
+refreshTime: 刷新时间
+alarmNums: 报警数量
+recentlyHours: 最近小时
+
+# assembly
+assemblyHome: Assembly 首页
+statisticsByDay: 按天统计
+dateEquipmentShift: 日期+设备+班次
+line: 线条
+area: 区域
+timeUtilization: 时间稼动率
+assemblyRunTime: 运行时间(小时)
+totalTime: 总时间(小时)
+# 备件管理
+sparesManage: 备件管理
+
+# 备件类别
+sparesCategory: 备件类别
+category: 类别
+pattern: 模式
+lifeControl: 寿命管控
+nonLifeControl: 非寿命管控
+machineMode: 机台模式
+inventoryModel: 库存模式
+sparePartsMode: 备品备件模式
+upperLifeLimit: 寿命上限
+numberOfUses: 使用次数
+
+# 备件型号管理
+sparesModelManage: 备件型号管理
+model: 型号
+
+# 备件基础信息
+sparesBasicInformation: 备件基础信息
+collect: 领用
+boarding: 上机
+disembark: 下机
+maintain: 维护
+restitution: 归还
+receive: 接收
+externalRepairRestitution: 外修归还
+region: 区域
+standBy: 站别
+number: 编号
+currentState: 当前状态
+storageLocation: 存放位置
+lastMaintenanceTime: 上次保养时间
+lastMaintenancePersonnel: 上次保养人
+nextMaintenanceTime: 下次保养时间
+reason: 原因
+maintenanceCycle: 保养周期(天)
+warningTime: 预警时间
+recipient: 领用人
+people: 人
+currentUsageNumber: 当前使用次数
+applicationCollectionTime: 申请领用时间
+returnWarehouseLocation: 归还库房位置
+applicationReturnTime: 申请归还时间
+returnee: 归还人
+maintenanceLocation: 保养库位
+externalRepairReturnDate: 外修归还日期
+cleaningSpareParts: 扫备件
+scanningEquipment: 扫设备
+internalMaintenance: 内部维修
+externalMaintenance: 外部维修
+picture: 图片
+spareState: 备件状态
+
+# 备件报废管理
+sparesScrapManage: 备件报废管理
+applyForScrapping: 申请报废
+confirmScrap: 确认报废
+rejected: 已驳回
+scrapped: 已报废
+confirmScrappingDate: 确认报废时间
+applicant: 申请人
+applicationTime: 申请时间
+reasonForScrapping: 报废原因
+confirmedBy: 确认人
+confirmationTime: 确认时间
+scrapper: 申请报废人
+applicationForScrappingTime: 申请报废时间
+applyScrap: 申请
+reject: 驳回
+pleaseImprove: 请完善
+reasonForScrappingTips: 长度最多100字符
+
+# 备件统计查询
+sparesStatisticalQuery: 备件统计查询
+collectAndReturn: 领还
+preserve: 保养
+repairs: 维修
+stock: 库存
+collectionTime: 领用时间
+collectingRemarks: 领用备注
+returnTime: 归还时间
+returnRemarks: 归还备注
+issuedBy: 发放人
+issuingTime: 发放时间
+releaseRemarks: 发放备注
+recipientQuery: 接收人
+receivingTime: 接收时间
+receiveRemarks: 接收备注
+useTimesAndTimeOfCollection: 领用时使用次数放时间
+numberOfUsesWhenReturning: 归还时使用次数
+maintenanceTime: 维护时间
+maintainerAccountBumber: 保养人(帐号)
+maintenanceReason: 保养原因
+maintenanceMethod: 保养方式
+maintainerAccountNumber: 维修人(帐号)
+repairsReplaceParts: 维修/更换部件
+repairsReason: 维修原因
+maintenanceMode: 维修方式
+resetOrNot: 是否清零
+numberOfGoodProducts: 良品数
+totalNumberOfGoodProducts: 良品总数
+numberOfWarehouses: 库房数量
+onlineQuantity: 线上数量
+totalScrapped: 报废总数
+preserveRemark: 保养备注
+repairsRemark: 维修备注
+
+# 备件领用单
+sparesCollectingDoc: 备件领用单
+collectingApplication: 领用申请
+grant: 发放
+dateOfApplication: 申请日期
+collectingDocNo: 领用单号
+pickingQuantity: 领用数量
+applicationRemarks: 申请备注
+requested: 已申请
+issued: 已发放
+listOfSparePartsIssued: 发放列表
+listOfAvailableSpareParts: 可用列表
+numberMessageWarning: 编号对应的数据已存在
+issueSpareParts: 发放备件
+
+# 个人中心
+personal: 用户中心
+personalInfo: 个人信息
+eMail: 电子邮件
+changePassword: 修改密码
+oldPassword: 旧密码
+newPassword: 新密码
+confirmPassword: 确认密码
+checkNewPswTip: 与新密码不一致
+modifyAvator: 修改头像
+preview: 预览
+changePswSuccessTip: 密码更新成功后，将跳转至登录页重新登录
+
+# 系统设置
+systemSetting: 系统设置
+basicSettings: 基本设置
+enableSavingInterfaceRecord: 开启保存接口记录
+enableServerResourceUpload: 开启服务器资源上传
+enableBusinessOperateRecord: 开启业务操作记录保存
+enableButtonOperateRecord: 开启按钮操作记录保存
+startSavingMailOperationRecords: 开始邮件操作记录保存
+generalSystemSettings: 系统常规设置
+displaySettings: 显示设置
+systemDisplaySettings: 系统显示设置
+mailSettings: 邮件设置
+systemMailSettings: 系统邮件设置
+senderEmail: 发件人邮箱
+SMTPServerAddress: SMTP服务器地址
+SMTPServerPort: SMTP服务器端口
+SMTPUserName: SMTP用户名
+SMTPPassword: SMTP密码
+recipientMailbox: 收件人邮箱
+mailTest: 邮件测试
+open: 开启
+close: 关闭
+closemailTest: 关闭邮件测试
+openmailTest: 开启邮件测试
+updateMailInformation: 更新邮件信息
+updateBasicInformation: 更新设置
+sendTestMail: 发送测试邮件
+incorrectAddress: 地址不正确
+incorrect: 不正确
+
+# -------------------------------------------------------------------------------------------- > 后台枚举字段
+
+# 改机单
+ConversionFormEnum_Verify: 审核
+ConversionFormEnum_NotVerify: 待审核
+ConversionFormEnum_WaitTakeOver: 待接手
+ConversionFormEnum_WaitHandle: 待处理
+ConversionFormEnum_WaitEqpReceive: 待设备接收
+ConversionFormEnum_ConversionEnd: 改机完成
+ConversionActionEnum_CreateFrom: 创建
+ConversionActionEnum_Verify: 审核
+ConversionActionEnum_HandOver: 转手
+ConversionActionEnum_TakeOver: 接手
+ConversionActionEnum_EgineerConfirm: 改机确认
+ConversionActionEnum_QCConfirm: QC确认
+ConversionActionEnum_EqpReceive: 设备接收
+
+# 报修管理
+RepairOperateTypeEnum_Submit: 发起报修
+RepairOperateTypeEnum_TakeOver: 接手
+RepairOperateTypeEnum_Transfer: 转手
+RepairOperateTypeEnum_MajorDown: MajorDown
+RepairOperateTypeEnum_InExecution: QC确认
+RepairOperateTypeEnum_Close: 关闭
+RepairOperateTypeEnum_PM: PM
+RepairOperateTypeEnum_RepairComplete: 维修完成
+RepairOperateTypeEnum_RepairMachine: 修机
+
+EnumFormType_PM: 维保
+EnumFormType_EQPSpotCheck: 设备点检
+EnumFormType_FQC: 首检
+EnumFormType_EQC: EQC检验
+EnumFormType_IPQC: 巡检
+EnumFormType_AlarmCheck: 报警验证表单
+EnumFormType_IQC: IQC
+EnumFormType_OQC: OQC
+EnumFormType_MaintainCheck: 维护检查表单
+EnumFormType_TensileForce: 编带拉力
+EnumFormType_FocusWorkOrder: 针对工单
+EnumFormType_SelfCheck: 自检单
+EnumFormType_PeriodicalMaintain: 备件 PM
+EnumFormType_ClearanceRecord: 清机记录
+EnumFormType_ChangeTestRecord: 换测记录
+EnumFormType_EQPRepair: 设备维修
+EnumFormType_QC_WB: QC_WB
+EnumFormType_QC_DB: QC_DB
+EnumFormType_RepairCompleted: 维修完成表单
+EnumFormType_ParmConfirm: 改机确认表单
+EnumFormType_QCConfirm: QC确认表单
+EnumFormType_EqpReceive: 设备接收表单
+EnumFormType_RepairQCForm: 报修QC表单
+EnumCheckItemApply_General: 通用
+EnumCheckItemApply_Condition: 条件
+EnumCheckItemDataType_Numerical: 数值
+EnumCheckItemDataType_Input: 手动输入
+EnumCheckItemDataType_Boolean: 布尔
+EnumCheckItemDataType_RadioList: 单选列表
+EnumCheckItemDataType_MultiSelectList: 多选列表
+EnumCheckItemDataType_RadioCheckbox: 单选勾选
+EnumCheckItemDataType_MultiCheckbox: 多选勾选
+EnumCheckItemDataType_SystemOut: 系统带出
+EnumCheckItemDataType_Attachment: 附件
+EnumCheckItemDataType_Decimal: 小数
+EnumCheckItemFinalResult_Result: 表单结果
+QCConfirmItems: QC确认项目
+MaintenanceConfirmationItems: 维修确认项目
+EnumCheckItemFinalResult_Ordinary: 普通项
+EnumCheckItemBelongTo_EQP: EQP
+EnumCheckItemBelongTo_Group: 组别
+EnumCheckItemBelongTo_Sample: 金样
+EnumCheckItemJudgeType_Value: 值
+EnumCheckItemJudgeType_Section: 区间
+EnumCheckItemJudgeType_OutputValue: 带出值
+EnumCheckItemJudgeType_DecimalValue: 小数值
+EnumCheckItemCondition_ALL: ALL
+EnumCheckItemCondition_ProductModel: 产品型号
+EnumCheckItemCondition_CustCode: 客户代码
+EnumCheckItemCondition_EQPModel: 设备型号
+EnumCheckItemCondition_SampleCode: 样管编号
+EnumCheckItemCondition_EQPType: 设备类型
+EnumCheckItemCondition_PackageType: 封装形式
+EnumCheckItemCondition_InterceptingPackageType: 截取封装形式
+EnumCheckItemCondition_ToolingModel: 备件型号
+EnumCheckItemCondition_ToolingType: 备件类型
+EnumCheckItemCondition_WeekDays: 固定周
+EnumCheckItemCondition_AlarmID: 报警代码
+EnumCheckItemCondition_EqpId: 设备编号
+EnumBringMode_BringBarcode: 带出备件编号
+EnumBringMode_BringQty: 带出数量
+EntityStatus_Invalid: 无效
+EntityStatus_Valid: 有效
+EnumBinType_SoftBin: Soft Bin
+EnumBinType_HardBin: Hard Bin
+EnumFrequenceUnit_DAY: Day
+EnumFrequenceUnit_WEEK: Week
+EnumFrequenceUnit_MONTH: Month
+EnumFrequenceUnit_DIE: Die
+InstallTypeEnum_TECNOrTESN: TECN/TESN
+InstallTypeEnum_ECNOrESN: ECN/ESN
+InstallTypeEnum_SWR: SWR
+EnumTimeUnit_Minute: 分钟
+EnumTimeUnit_Hour: 小时
+EnumTimeUnit_Day: 天
+EnumTimeUnit_Week: 周
+EnumTimeUnit_Month: 月
+EnumTimeUnit_Year: 年
+AlarmActionEnum_HoldEquipment: Hold Equipment
+AlarmActionEnum_HoldLot: Hold Lot
+AlarmActionEnum_SendSMS: Send SMS
+AlarmActionEnum_SendEmail: Send Email
+AlarmActionEnum_SendWebServiceSMS: Send Service SMS
+AlarmActionEnum_LockEquipment: Lock Equipment
+AlarmActionEnum_SendRepair: Send Repair
+AlarmActionEnum_SendOAMessage: Send OA Message
+AlarmActionEnum_SendWeChatMessage: Send WeChat Message
+EnumCheck_Yes: 是
+EnumCheck_No: 否
+EnumToolingAction_Lend: 领用
+EnumToolingAction_Return: 归还
+EnumToolingAction_Maintain: 维保
+EnumToolingAction_Scrap: 报废
+EnumToolingAction_LendOnEqp: 上机
+EnumToolingAction_GetOffEqp: 下机
+EnumToolingAction_Grant: 发放
+EnumToolingAction_Takeback: 接收
+ToolingScrap_ApplyScrap: 申请报废
+ToolingScrap_Rejected: 已回驳
+ToolingScrap_Scraped: 已报废
+ToolingApplyGrant_Apply: 申请
+ToolingApplyGrant_Rejected: 已回驳
+ToolingApplyGrant_Granted: 已发放
+EnumHdStatus_Good: Good
+EnumHdStatus_Fail: Fail
+EnumHdStatus_Engineer: Engineer
+EnumHdStatus_Scrap: Scrap
+EnumHdStatus_ShutDown: ShutDown
+EnumCategory_Common: 共用
+EnumCategory_Maintenance: 维保
+EnumCategory_Spot: 点检
+EnumCategory_Alarm: 报警验证
+EnumCategory_Tooling: 备件
+EnumCategory_ProduceCheck: 生产验证
+EnumCategory_Equipment: 设备
+EnumCategory_Repair: 报修
+EnumCategory_Conversion: 改机
+
+# 部门管理
+DepartmentEnum_Department: 部门
+DepartmentEnum_Section: 科室
+DepartmentEnum_UserGroup: 用户组
+ToolingStateEnum_Free: 待用
+ToolingStateEnum_WaitGrant: 待发放
+ToolingStateEnum_WaitLendOn: 待上机
+ToolingStateEnum_OnEqp: 在机台
+ToolingStateEnum_WaitPM: 待保养
+ToolingStateEnum_WaitReturn: 待归还
+ToolingStateEnum_WaitTakeBack: 待接收
+ToolingStateEnum_RepairSendBack: 维修送回
+
+# 报修管理
+RepairOperateStateEnum_ToTakeOver: 待接单
+RepairOperateStateEnum_AwaitingRepair: 待维修
+RepairOperateStateEnum_InTheStock: marjorDown
+RepairOperateStateEnum_ToBeConfirmed: 待QC确认
+RepairOperateStateEnum_EqpReceive: 设备接收
+RepairOperateStateEnum_PM: PM
+RepairOperateStateEnum_RepairMachine: 修机
+RepairOperateStateEnum_CompleteMaintenance: 维修完成
+
+# -------------------------------------------------------------------------------------------- > Http Response Code
+
+0: 操作失败
+1: 操作成功
+25: 备件型号模板
+1002: 用户不存在
+1003: 密码不正确
+1004: 记录不存在
+1005: license无效
+1006: license已过期
+1007: 获取主机头失败
+1008: 主机头为空
+1009: 主机头不合法
+1010: 获取认证信息失败
+1011: 登录过期，请重新登录
+1012: 登录过期，请重新登录
+1013: 请求不合法
+1014: 参数错误
+1015: 名称已存在
+1016: 管理账号已存在
+1017: 编码已存在
+1018: 基础配置错误
+1019: 导出失败
+1020: 上传内容不存在
+1021: 上传的文件不是Excel
+1022: 导入失败
+1023: 下载模板不存在
+1024: 下载文件不存在
+1025: 版本号已存在
+1026: 请配置项目License
+1027: License无效
+1028: 总机台数已超过最大配额无法继续添加
+1029: TMS机台数已超过最大配额无法继续添加
+1030: AMS机台数已超过最大配额无法继续添加
+1031: PMS机台数已超过最大配额无法继续添加
+1032: 用户所在项目不存在
+1033: 用户所在项目已停用
+1034: 供应商批号不能为空
+1035: 供应商批号已存在
+1036: 旧密码不正确
+1037: 数据已存在
+1038: 供应商名称已存在
+1039: 供应商名称不允许重复
+1040: 供应商批号不允许重复
+1041: ' {v0} 不可为空'
+1042: 备件申请报废记录不存在
+1043: 备件已报废
+1044: 备件申请报废记录已存在
+1045: 权限不足
+1046: 没有数据可供导出
+1047: 供应商名称不能为空
+10000: Id不能为空
+10001: 名称不能为空
+10002: 部门不能为空
+10003: 无效
+10004: 日期格式不正确
+10005: 数值类型格式不正确
+10006: 列名不存在
+10007: 没有数据可供导入
+10008: 设备类型不能为空
+10009: 分选机编号不能为空
+10010: 测试机编号不能为空
+10011: 分选机不存在
+10012: 测试机不存在
+10013: 备件类别不存在
+10014: 备件型号不存在
+10015: 请至少填写产线层级或者设备编号
+10016: 请填写执行动作
+10017: 执行动作不存在
+10018: 报警代码不能为空
+10019: 请填写报警触发次数
+10020: 该设备报警代码已配置
+10021: 设备型号不存在
+10022: 设备编号不存在
+10023: 编号不能为空
+10024: 备件类别不能为空
+10025: 备件型号不能为空
+10026: 内部编号不能为空
+10027: 材料编号不能为空
+10028: 材料类别不能为空
+10029: 材料类别不存在
+10030: 物料号不能为空
+10031: 生产日期不能为空
+10032: 过期日期不能为空
+10033: 初始化长度不能为空
+10034: 供应商批号不能为空
+10035: 产品名称不能为空
+10036: 需要PAT不能为空
+10037: 供应商不存在
+10038: 报警级别不能为空
+10039: 报警级别不存在
+10040: 账号不能为空
+10041: 部门不存在
+10042: 用户姓名不能为空
+10043: 部门名称不能为空
+10044: 账号已存在
+10045: 主管不存在
+10046: 角色不存在
+10047: 设备类型层级名称不能为空
+10048: 设备类型层级名称不存在
+10049: 是否收集报警不能为空
+10050: 是否收集报警无效
+10051: 报警代码不能重复
+10052: 报警代码已存在
+10053: 默认级别不能为空
+10054: 默认级别不存在
+10055: 非设备层级不能设定规则
+10056: 电子邮件格式不正确
+10057: 类型名称已存在
+10058: 类型名称不能重复
+10059: 设备型号不能为空
+10060: SBL主要信息均为空错误
+10061: SBL子表信息有误或插入有误
+10062: 备件存放位置不能为空
+10063: 备件标志位不能为空
+10064: 备件状态不能为空
+10065: 备件归属者不能为空
+10066: 备件收到日期不能为空
+10067: 不允许导入空文件
+10068: 报警触发次数请输入1-999的正整数
+10069: 材料编号已存在
+10070: 材料类别已存在
+10071: 用户账号不能重复
+10072: 描述不能为空
+10073: 供应商名称不能为空
+10074: 有效时间请输入0-9999的整数
+10075: 测试机对应的测试头没有找到
+10076: 请填写报警描述
+10077: 请填写设备编号
+10078: 请填写是否收集报警
+10079: 该设备编号报警代码重复
+10080: 该设备型号报警代码重复
+10081: 设备类型和描述不允许重复
+10082: 部门类别不能为空
+10083: 产线层级不存在
+10084: 该产线层级报警代码已配置
+10085: 该产线层级警代码重复
+10086: 包含中文字符
+10087: 备件编号已存在
+10088: Recipe不能为空
+10089: 理论UPH不能为空
+10090: 理论UHP数据已存在
+10091: Excel数据重复
+10092: 物料号不能为空
+10093: 该产线层级下无此报警代码
+10094: 该设备编号下无此报警代码
+10095: 设备类型不存在
+10096: 设备类型+报警代码重复
+10098: 设备类型不存在
+10099: 设备类型+报警代码重复
+10100: 请填写设备类型
+10101: 请至少填写设备类型或者设备编号
+10102: 该设备类型下无此报警代码
+10103: BinNo不符合要求
+10104: Part Id不能为空
+10105: 设备类型+参数不存在
+10106: 移动电话格式不正确
+10107: 办公电话格式不正确
+10108: 设备状态错误，不能进行审核修改
+10109: Config不符合要求
+10110: 区域不能为空
+10111: 站别不能为空
+10112: 型号不能为空
+10113: 编号不能为空
+10114: 状态(1:Good 2:Fail 3:Enginner)不能为空
+10115: 编号已存在
+10116: 类别不能为空
+10117: 类别不存在
+10118: 区域不存在
+10119: 站别不存在
+10120: 存放位置不存在
+10121: 状态不存在
+10122: 型号不存在
+10125: 请填写设备编号
+10127: 用户组名称错误
+10128: 该用户没有设置这个产线层级的权限
+10129: 产线层级不能包含空格
+10130: 验收时间的格式不正确
+10131: 进厂时间的格式不正确
+10132: 质保期的格式不正确
+10133: 设备归属组的数据不存在
+10134: 资产归属部门的数据不存在
+10135: 系统名称的数据不存在
+10136: 第一责任人的数据不存在
+10137: 第二责任人的数据不存在
+10138: 站点的数据不存在
+10139: 设备归属区域的数据不存在
+10140: 机台状态的数据不存在
+10141: 设备编号不能包含空格
+10142: 描述不能有空格存在
+10143: 测试头不能有空格存在
+10144: 设备归属组不能有空格存在
+10145: 序列号不能有空格存在
+10146: 资产号不能有空格存在
+10147: 资产归属部门的数据不存在
+10148: 厂区不能有空格存在
+10149: 附属资产号不能有空格存在
+10150: 验收时间不能有空格存在
+10151: 进厂时间不能有空格存在
+10153: 质保期不能有空格存在
+10154: 特征不能有空格存在
+10155: 系统名称不能有空格存在
+10156: 第一责任人不能有空格存在
+10157: 第二责任人不能有空格存在
+10158: 选择用户组以间隔不能有空格存在
+10159: 站点不能有空格存在
+10160: 使用地点不能有空格存在
+10161: 最大测试工位不能有空格存在
+10162: 机台流程控制不能有空格存在
+10163: 配置信息不能有空格存在
+10164: 设备归属区域不能有空格存在
+10165: 机台状态不能有空格存在
+10166: 设备编号只能由字母、数字、{'|'}和-组成
+10167: 机台流程控制的数据不存在
+10168: 最大测试工位的数据不存在
+10169: 当前用户没有该设备的权限
+10170: 理论UPH必须为正整数
+10171: 安全库存不能为空
+10172: 安全库存必须为正整数
+10177: 该设备类型没有在用户组中关联这个选择用户
+10178: 该设备编号没有在用户组中关联这个选择用户
+10179: 登录人没有这个设备编号的权限
+10181: 供应商名称不能包含空格
+10182: 供应商名称过长
+10183: 描述过长
+10184: 设备编号过长
+10185: 厂区过长
+10186: 部门名称不能包含空格
+10187: 部门名称过长
+10188: 账号不能包含空格
+10189: 账号过长
+10190: 用户名过长
+10191: 电子邮件过长
+10192: 办公电话过长
+10193: 移动电话过长
+10194: 用户名不能包含空格
+10195: 产线层级名称过长
+10196: 产线层级名称不能为空
+10197: 备件型号超长
+10198: 备件类别超长
+10199: 报警代码超长
+10200: 报警代码不能包含空格
+10201: 是否计算MTBA无效
+10202: 是否是机台自身报警无效
+10203: 是否切换Alarm无效
+10204: 选择用户不存在
+10205: 设备类型或者设备编号二选一填写
+10206: Recipe不能包含空格
+10207: 理论UPH过长
+10208: 备注过长
+10209: Recipe过长
+10210: 备件型号不能包含空格
+10211: 备件类别不能包含空格
+10212: 供应商批号过长
+10213: 材料类别已存在
+10214: 供应商批号不能包含空格
+10215: port不能为空
+10216: chamber不能为空
+10217: port无效
+10218: chamber无效
+10219: 锁机类型无效
+10220: 锁机类型不能为空
+20000: 设备不能为空
+20001: 设备 {v0} 已经开批
+20002: 工单 {v0} 已经开批
+20003: MES系统 {v0} 设备状态是 {v1} 设备不能开批
+20004: 系统开批的测试机编号 {v0} 和MES给到的测试机编号 {v1} 不一致
+20005: 设备 {v0} 未开批
+20006: 系统中没有设备 {v0}
+20007: ' {v0} EAP LotVerfy验证失败: {v1} '
+20008: ' {v0} EAP Cancel TrackIn 验证失败: {v1} '
+20009: 分选机最大工位数量不大于0
+20010: 请填写 {v0} 设备测试头
+20011: 恢复Summary失败 {v0} 记录不存在
+20012: 子属性必须选择一个父属性
+20014: 备件 {v0} 剩余寿命不足无法完成此批次
+20015: '硬件规则检测失败: {v0} '
+20016: 远程路径 {v0} 连接失败
+20017: 远程档案规范 {v0} 获取失败
+20018: AQL标准规则 {v0} 获取失败
+20019: 设备绑定失败该分选机已存在绑定关系
+20020: 获取结批信息失败 {v0} 信息不存在
+20021: 结批失败 {v0} 信息不存在
+20022: 结批失败 {v0}
+20023: 设备绑定失败该测试机已存在绑定关系
+20024: 更换Socket列表信息为空
+20025: 没有该备件信息
+20026: 设备信息不能为空
+20027: 材料编码信息不能为空
+20028: 材料编码信息不正确
+20029: 材料编码剩余长度必须大于0
+20030: 当前材料还未从机台 {v0} 上下机
+20031: 设备 {v0} 没有维护最大工位数
+20032: 'CC接口TMSUIToEAP_SetMaterialInfo返回错误信息: {v0} '
+20033: Socket不能重复选择
+20034: 用户 {v0} 没有交接班页面权限
+20035: 用户 {v0} 密码不正确
+20036: 用户 {v0} 没有交接班权限
+20037: 用户 {v0} 没有任何权限
+20038: 用户 {v0} 密码不正确
+20039: 'MES接口异常: {v0} '
+20040: 设备 {v0} 已经结批
+20041: 工单 {v0} 已经结批
+20042: ' {v0} CC TrackIn失败: {v1} '
+20043: ' {v0} 数据不存在'
+20044: TrackOut失败 选择FinishHold但扣留代码为空
+20045: 取消进站失败 {v0} 信息未找到
+20046: 请先添加设备布局
+20047: 'OA Hifix信息接口异常: {v0} '
+20048: 开批信息与Device Recipe信息不符请确认 {v0}
+20049: 'PE Recipe接口异常: {v0} '
+20050: '结批成功 但是批次扣留: {v0} '
+20051: MES系统 {v0} 设备PM时间是 {v1} 设备不能开批
+20052: 系统中不存在工单信息
+20053: 'EAP Error Info: {v0} '
+20056: 测试机一列需要把测试机头用下划线拼写好
+20057: 分选机和测试机不能允许重复
+20058: '设备选择Recipe Fail: {v0} '
+20059: 料盒信息至少存在一个
+20060: 设备编号+Recipe已存在
+20061: 起始时间和结束时间不能为空
+20062: 未找到设备
+20064: 一级状态未找到
+20065: 新状态不能与当前状态相同
+20066: 不能切换到该状态
+20067: 该状态无法找到
+20068: 已存在相同名称的父状态
+20069: 该父状态下已存在相同名称的子状态
+20070: Alarm状态不存在请到状态标准定义页面去添加
+20071: EAP状态代码 {v0} 的数据不存在
+20072: 该状态的生产数据已经被记录无法删除
+20073: 此零头批号不能执行合批操作
+20074: 设备 {v0} Recipe {v1} 的UPH已经审核请确认
+20075: 设备 {v0} 改机单已存在
+20076: 当前用户无权限删除设备 {v0} 的改机单
+20077: 下一状态不存在请到状态标准定义页面去添加二级状态
+20078: 报修的下一状态不存在，请在数据字段中添加数据
+20079: 操作失败当前用户无权限进行操作
+20080: 获取编带数量失败 {v0}
+20081: 操作员没有切换到该状态的权限
+20082: 角色名称为 {v0} 的数据不存在
+20083: 当前改机单状态为 {v0} 无法进行 {v1} 操作
+20084: '改机单操作失败发生异常: {v0} '
+20085: 报修和切机不能同时发生
+20086: 设备 {v0} Recipe {v1} 的UPH已经确认请确认
+20089: 设备 {v0} Recipe {v1} 的UPH已经被驳回请确认
+20090: 只有同机型，同RECIPE，同Config才能批量审核
+20091: 上下限为数字的Data只能为数字
+20092: '审核调用OA接口失败:'
+20093: 手动创建改机单后一状态要为:48-等待领班处理
+20104: 状态代码已存在
+20105: 已拥有子级状态
+20106: 状态名称已存在
+20107: 备件类别已存在
+20108: 备件型号已存在
+20109: 过期日期要大于等于生产日期
+20110: 无操作该设备的可见权限
+30001: 请选择扣留批次项
+30002: 请选择设备编号
+30003: 请输入扣留代码
+30004: 设备类型+报警代码已配置，不能再次配置
+30005: 报警级别不能为空
+30006: 执行动作不能为空
+30007: 报警级别名称已存在
+30008: 请选择产线层级
+30009: 请至少添加一条报警代码
+30010: 报警代码不能重复
+30011: 报警代码不能为空
+30012: 动作编码已存在
+30013: 动作名称已存在
+30014: 已关联报警级别的动作不能删除
+30015: 已关联报警规则的报警级别不能删除
+30016: 报警代码已存在
+30017: 已关联报警级别的动作不能更新为无效数据
+30018: 产线层级+报警代码已配置，不能再次配置
+30019: 请选择产线层级
+30021: 该设备型号报警代码重复
+30022: 该设备编号报警代码重复
+30023: 有效时间不能大于9999小于0
+30024: '解锁失败 {v0} '
+30025: 请选择设备类型
+40000: 备件 {v0} 的库存不足现有库存数 {v1}
+40001: 备件 {v0} 的状态不符当前状态为 {v1} 只有待用的才能领用
+40002: 备件 {v0} 的状态不符当前状态为 {v1} 只有待归还的才能归还
+40003: 备件 {v0} 不存在
+40004: 此套件信息已存在
+40005: 无法生成领用单 {v0} 信息不存在
+40006: 库房没有用于供该工单号所能领用的备件了
+40007: 领用单 {v0} 已失效
+40008: 此备件状态为 {v0} 无法领用
+40009: 此备件不符合领用条件
+40010: 备件领用数量有误现有库存数 {v0} 领用数 {v1}
+40011: 备件领用失败 {v0} 信息不存在
+40012: 此寿命阶段管控信息已存在
+40013: 请至少添加一个套件信息
+40014: 请至少添加一个区间信息值
+40015: 区间阶段开始值 {v0} 必须小于区间阶段结束值 {v1}
+40016: 标准值 {v0} 必须小于区间阶段结束值 {v1}
+40017: 区间阶段开始值 {v0} 在区间开始值 {v1} 到区间结束值 {v2} 之间请重新输入
+40018: 备件检查表不存在
+40019: 该材料已上机
+40020: 备件标志位为 {v0} 无法进行归还操作
+40021: 材料类别已存在
+40022: 材料类别已被绑定
+40023: 材料编号已存在
+40024: 备件 {v0} 的状态不符当前状态为 {v1} 只有Good的才能领用
+40025: 备件 {v0} 的标志位不符当前标志位为 {v1} 无法发回
+40026: 材料 {v0} 不存在
+40027: 材料 {v0} 未上机
+40028: 备件 {v0} 的当前状态为 {v1} 只有待上机状态才能上机
+40029: 备件 {v0} 需要先下机才能归还
+40030: 备件已上机
+40031: 备件未上机
+40032: 操作失败 未找到有效备件 {v0}
+40033: 'EAP接口OUIToEAP_SetConsumablesLifeTime返回错误信息: {v0} '
+40034: 'EAP接口TMSUIToEAP_GetConsumablesLifeTime返回错误信息: {v0} '
+40035: '获取Redis中机台开批信息异常: {v0} '
+40036: 此备件型号在Head {v0} 已有绑定记录
+40037: 'MES接口返回错误信息: {v0} '
+40038: 材料 {v0} 无法上机已超出过期日期 + 过期使用天数( {v1} )
+40039: 此备件型号已存在绑定记录
+40040: '检验备件上机信息异常: {v0} '
+40041: '备件 {v0} 正在使用无法删除'
+40042: 设备Head {v0} 已被占用无法再次上机
+40043: 设备绑定的备件类型不存在请确认
+40044: 设备绑定的材料类别不存在请确认
+40045: 备件 {v0} 未上机无法开批
+40046: 设备 {v0} 没有上机的备件请确认
+40047: 备件 {v0} 的类型是 {v1} 不是 {v2} 请确认
+40048: 设备 {v0} 没有上机的材料请确认
+40049: 材料 {v0} 的类型是 {v1} 不是 {v2} 请确认
+40050: 备件 {v0} 借出备件数量为 {v1} 个无法归还 {v2} 个
+40051: '检验材料上机信息异常: {v0} '
+40052: 备件型号 {v0} 未绑定任何产品型号无法 {v1}
+40053: 备件型号 {v0} 未绑定产品型号 {v1} 无法 {v2}
+40054: 备件或材料为空值请确认
+40055: 备件型号均已绑定此设备
+40056: 设备 {v0} 未绑定备件型号 {v1} 请确认
+40057: 设备 {v0} 未绑定任何备件型号请确认
+40058: 产品型号绑定的备件型号以及Head编号与上机备件的情况不符
+40059: 设备 {v0} 绑定的备件型号与上机型号不符请确认
+40060: 'EAP接口OUIToEAP_GetAllConsumablesLifeTime返回错误信息: {v0} '
+40061: 设备 {v0} 正在运行材料无法下机
+40062: 材料 {v0} 有效时间已过请确认
+40063: 材料 {v0} 已经开始计时不能重复开始
+40064: 材料 {v0} 有效时间未设置
+40065: 备件 {v0} 维修送回请确认
+40066: 备件 {v0} 未外送维修无法进行外修归还请确认
+40067: 备件 {v0} 借出到设备 {v1} 的备件数量为 {v2} 个无法归还 {v3} 个
+40068: 料号不存在
+40069: 物料库存不存在
+40070: 该料号没有待发放的数据
+40071: 该料号没有待归还的数据
+40072: 该料号没有待收回的数据
+40073: 操作失败 备件 {v0} 的当前状态为 {v1} 无法 {v2}
+40074: 编号已存在
+40075: 备件 {v0} 的状态不符，当前状态为 {v1} ,只有待用的才可进行报废
+40076: 备件 {v0} 的状态不符，当前状态为 {v1} ,只有申请报废状态才可确认报废
+40077: 操作失败 领用单 {v0} 的状态不符，当前状态为 {v1} 无法删除
+40078: 操作失败 备件 {v0} 的状态不符，当前状态为{v1}，无法发放
+40079: 可用的备件数量不足
+40080: 领用数量与发放数量需一致
+40081: 备件编号的型号与领用单中型号不一致
+40088: 材料编号不存在
+40089: Tooling {v0} 需要保养
+40090: 请扫描备件编号后操作，如果手动输入备件编号请输入完后按回车键
+40091: 申请报废的记录不存在,无法申请报废
+40092: 确认报废的记录不存在,无法确认报废
+40093: 驳回报废的记录不存在,无法确认驳回
+40094: 备件编号不存在
+40095: 发放列表不存在,无法操作
+40096: 备件 {v0} 已被使用，无法修改
+40097: 材料 {v0} 已被使用，无法修改
+40098: 材料 {v0} 正在使用,无法删除
+40099: 操作失败，领用单 {v0} 的状态不符，当前状态为 {v1} 无法修改
+50000: 条件信息不能为空
+50001: 数据内容不能为空
+50002: 小数位数不能为空
+50003: 值或区间不能为空
+50004: Fail标准值不能为空
+50005: 区间值信息不能为空
+50006: 数据类型和值或区间不能都选带出值
+50007: 表单项结果作为表单结果必须开启校验
+50008: 表单项输入校验失败
+50009: 条件和条件值不能为空
+50010: 条件信息中 {v0} {v1} 已经存在
+50011: 区间值信息只能有一条
+50012: 该表单没有绑定时机
+50013: 'CC返回的样管报错信息为: {v0} '
+50014: 'MES:getLotInfo接口报错信息为: {v0} '
+50015: 'MES:getSamplers接口报错信息为: {v0} '
+50016: 没有查到设备的基础信息
+50017: 该表单没有绑定表单项
+50018: 该表单没有绑定该表单项
+50019: 该表单没有满足条件的表单项
+50020: 没有找到表单号为 {v0} 的表单
+50021: 当前设备没有开批
+50022: 当前设备不存在
+50023: 'MES:getPackageMaterial接口报错信息为: {v0} '
+50024: 该表单项上下限为空
+50025: 自动校验未通过Fail值为 {v0}
+50026: 设备类型不存在
+50027: 元素 {v0} 已存在
+50028: 元素不存在
+50029: 数据名称 {v0} 已存在
+50030: 数据名称不存在
+50031: 请至少添加一个包含元素
+50032: 树形定义下该元素值 {v0} 已存在
+50033: 数据元素值不存在
+50034: 请输入用户账号
+50035: 请输入密码
+50036: LDAP认证失败
+50037: 子节点不存在
+50038: 元素已被使用无法删除
+50039: 无法新增子节点请确认树形定义
+50040: 布局页面中只能添加分选机
+50041: 当前设备型号正在使用无法删除
+50042: 当前设备类型正在使用无法删除
+50043: 表单项已被使用无法删除
+50044: FtpServer已设置
+50045: 该设备已设置FtpServer
+50046: 请选择尚未解析的文件
+50047: 当前APP已经绑定机台
+50048: 当前机台已经绑定APP
+50049: 当前App没有绑定设备
+50050: 产线层级必选
+50051: 主机名称已存在
+50052: 部门名称已存在
+50053: 设备编号不能为空
+50054: 请选择父级节点
+50055: 层级名称不能为空
+50056: 层级名称已存在
+50057: 请先删除设备
+50058: 账号已存在
+50059: 角色名称已存在
+50060: 用户组名称已存在
+50061: 非设备类型层级不能添加设备
+50062: 设备编号已存在
+50063: 父级部门名称不存在
+50064: 类型名称已存在
+50065: 设备型号已存在
+50066: 设备型号不允许重复
+50068: 部门名称不允许重复
+50069: 供应商名称和供应商批号不允许重复
+50070: 请选择其他父级
+50071: 请输入属性名称
+50072: 供应商批号不允许重复
+50073: 分选机和测试机不能允许重复
+50074: 当前部门正在使用无法删除
+50075: 部门类别不正确
+50076: 请选择部门类别
+50077: 最大层级数量为3
+50078: 各层级名称不可重复
+50079: 请先删除用户组中选择的产线层级
+50080: 工号不正确
+50081: 该用户被使用，无法删除
+50082: 该角色被使用，无法删除
+50083: 该数据被使用，无法删除
+50084: 该用户在用户组管理中被使用，无法删除
+50085: 该设备在用户组管理中被使用，无法删除
+50086: 请选择到设备类型
+50087: 该用户在设备中被使用，无法删除
+50088: 该用户组在设备中被使用，无法删除
+50089: 该产线层级在报警统计配置中被使用，无法删除
+50090: 报警代码在报警统计配置中被使用，无法删除
+50091: 该产线层级在报警设定管理中被使用，无法删除
+50092: 报警代码在报警设定管理中被使用，无法删除
+50093: 自己不能选择自己为主管
+50094: 操作人部门不存在
+50096: 该菜单存在子菜单，不能删除
+50098: 最大值不小于最小值
+50099: 字典值已存在
+50100: 字典名称已存在
+50101: 表单项已存在
+50102: 表单已存在
+50103: 项目分类以及表单类型不允许重复
+50104: 父级名称不存在
+50105: 不能选择自己作为上级菜单
+50106: 不能选择子级菜单作为上级菜单
+50107: 请输入Kafka Server地址
+50108: Kafka Server连接失败
+50109: 未勾选任何设备
+50110: 字典类型已存在
+70000: 当前路径下已经存在此文件
+70001: 需要更新的文件记录不存在请刷新文件列表后再操作
+70002: 测试机管理数据未维护
+70003: TPIR-FT数据不存在
+70009: 工单不能删除
+70010: 工单不能修改
+70011: 设备状态不存在，请到状态切换页面添加设备状态
+70012: 层级Id不能为空
+70013: 只有转交部门的成员可以接单
+70014: 表单类型为{0}的不存在
+70015: 该设备没有QC确认
+70016: 还没有进行QC确认的操作
+70017: 表单不存在
+70018: 数据不存在，请在数据字典中维护状态(37-还机给OP)
+70019: 数据不存在，请在状态标准定义页面添加状态(37-还机给OP)
+70020: 该设备报修已存在
+70021: 报修操作失败发生异常
+70022: 不能切到该状态
+70023: 请把数据维护到数据字段里
+70025: 工单有Fail项，请填写正确的数据
+70026: 请用机况WB设备技术员的账号操作PM
+70027: 手动创建报修单下一状态要为:29-等待设备技术员处理
+80000: 无法生成摘要，请确认Cron表达式是否正确
+80001: 服务器IP已存在
+80002: Cron表达式有误
+80003: 该记录已被执行，请刷新列表并重新点击进行修改
+80004: 任务描述已存在
+80005: 任务类型已存在
+80006: 未查询到邮件人邮箱
+80007: 邮件人未选择
+80008: 未查询到邮件人ID
+80009: 该服务器IP已在资源报警阈值设定处被使用，无法删除
+80010: 该服务器IP已在任务设定处被使用，无法删除
+90000: 文件类型不正确
+90001: 文件 {v0} 记录已存在
+90002: SBLBin参数信息至少需要一个
+90003: WaferId包含重复项 {v0}
+90004: 参数名包含重复项 {v0}
+90005: 参数名组合 {v0} 重复
+90007: 产品成熟度不够
+90008: 产品成熟度未配置或设置有误
+90009: 未找到相应的SBL配置
+90010: SBL主Key信息均未填写
+90011: SBL子表信息有重复
+90012: 解析过程报错 {v0}
+90013: Bins表中没有查找到相应的子表信息
+90014: SBL子表上限未设置
+90015: SBL子表下限未设置
+100007: 系统不存在当前设备 {v0}
+100034: 当前批次使用机台是 {v0}
+100035: 不同类型的材料或者耗材，不能使用相同的条码
+110000: 无法生成摘要请确认计划设定是否正确
+110001: 服务器IP已存在
+110002: Cron表达式有误
+110003: 该记录已被执行，请刷新列表并重新点击进行修改
+110004: 任务描述已存在
+110005: 任务类型已存在
+999999: 操作失败
