@@ -1,3 +1,0 @@
-<template>
-  <n-radio />
-</template>
